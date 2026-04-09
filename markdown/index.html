@@ -5,24 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Articles — Nothing But Shiva</title>
   <meta name="description" content="Read articles and written content from Nothing But Shiva.">
+  <link rel="icon" href="../assets/images/om-icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 
+  <a href="#content" class="skip-link">Skip to content</a>
+  <div class="mobile-backdrop"></div>
+
   <!-- Navigation -->
   <nav class="site-nav">
     <div class="nav-inner">
       <a href="../" class="nav-brand">
-        <span class="brand-icon">📚</span>
+        <img src="../assets/images/om-icon.svg" class="brand-om" width="28" height="28" alt="Om">
         Nothing But Shiva
       </a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
       <ul class="nav-links">
         <li><a href="../">Home</a></li>
         <li><a href="../#books">Books</a></li>
-        <li><a href="../html/">HTML Pages</a></li>
-        <li><a href="./" class="active">Articles</a></li>
+        <li><a href="../#stotras">Stotras</a></li>
+        <li><a href="../articles/">Articles</a></li>
+        <li><a href="../#about">About</a></li>
         <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
       </ul>
     </div>
@@ -31,11 +38,11 @@
   <!-- Page Header -->
   <div class="page-header">
     <p class="breadcrumb"><a href="../">Home</a> / Articles</p>
-    <h1>📝 Articles &amp; Notes</h1>
+    <h1>Articles &amp; Notes</h1>
   </div>
 
   <!-- Content -->
-  <div class="section">
+  <div id="content" class="section">
     <p class="section-subtitle">Written content converted from Markdown to HTML automatically.</p>
 
     <ul class="item-list" id="articles-list">
@@ -52,20 +59,28 @@
 
     <div id="empty-msg" class="empty-state" style="display:none;">
       <div class="empty-icon">📝</div>
-      <p>No articles yet. Add <code>.md</code> files to the <code>markdown/</code> folder.</p>
+      <p>No articles yet.</p>
     </div>
   </div>
 
+  <!-- Footer Bridge -->
+  <div class="footer-bridge"></div>
+
   <!-- Footer -->
   <footer class="site-footer">
+    <p class="footer-quote">"Shiva is the soul of all that exists."</p>
     <ul class="footer-links">
       <li><a href="../">Home</a></li>
       <li><a href="../#books">Books</a></li>
-      <li><a href="../html/">HTML</a></li>
-      <li><a href="./">Articles</a></li>
+      <li><a href="../#stotras">Stotras</a></li>
+      <li><a href="../articles/">Articles</a></li>
+      <li><a href="../#about">About</a></li>
     </ul>
-    <p>&copy; 2026 Nothing But Shiva. All rights reserved.</p>
+    <p class="footer-brand">Nothing But Shiva</p>
+    <p class="copyright">&copy; 2026 Nothing But Shiva. All rights reserved.</p>
   </footer>
+
+  <button class="scroll-top-btn" aria-label="Scroll to top">↑</button>
 
   <script src="../assets/js/main.js"></script>
 </body>

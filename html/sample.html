@@ -4,24 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sample Page — Nothing But Shiva</title>
+  <link rel="icon" href="../assets/images/om-icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 
+  <a href="#content" class="skip-link">Skip to content</a>
+  <div class="mobile-backdrop"></div>
+
   <!-- Navigation -->
   <nav class="site-nav">
     <div class="nav-inner">
       <a href="../" class="nav-brand">
-        <span class="brand-icon">📚</span>
+        <img src="../assets/images/om-icon.svg" class="brand-om" width="28" height="28" alt="Om">
         Nothing But Shiva
       </a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
       <ul class="nav-links">
         <li><a href="../">Home</a></li>
         <li><a href="../#books">Books</a></li>
-        <li><a href="./" class="active">HTML Pages</a></li>
-        <li><a href="../markdown/">Articles</a></li>
+        <li><a href="../#stotras">Stotras</a></li>
+        <li><a href="../articles/">Articles</a></li>
+        <li><a href="../#about">About</a></li>
         <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
       </ul>
     </div>
@@ -29,43 +36,51 @@
 
   <!-- Page Header -->
   <div class="page-header">
-    <p class="breadcrumb"><a href="../">Home</a> / <a href="./">HTML Pages</a> / Sample Page</p>
+    <p class="breadcrumb"><a href="../">Home</a> / <a href="./">Pages</a> / Sample</p>
     <h1>Sample HTML Page</h1>
   </div>
 
   <!-- Content -->
-  <div class="section" style="max-width:800px;">
-    <article>
-      <h2>Welcome</h2>
-      <p>
-        This is a sample standalone HTML page. You can add any custom HTML content here.
-        Each page in the <code>html/</code> folder is served as-is with no processing.
-      </p>
+  <div id="content" class="section markdown-content">
+    <h2>Welcome</h2>
+    <p>
+      This is a sample standalone HTML page. You can add any custom HTML content here.
+      Each page in the <code>html/</code> folder is served as-is with no processing.
+    </p>
 
-      <h3>How to Add Pages</h3>
-      <ol>
-        <li>Create a new <code>.html</code> file in the <code>html/</code> folder</li>
-        <li>Use the same navigation and styling by including the Pico CSS and custom stylesheet</li>
-        <li>Add a link to your new page in <code>html/index.html</code></li>
-        <li>Commit and push — it will be live on GitHub Pages</li>
-      </ol>
+    <h3>How to Add Pages</h3>
+    <ol>
+      <li>Create a new <code>.html</code> file in the <code>html/</code> folder</li>
+      <li>Use the same navigation and styling by including the Pico CSS and custom stylesheet</li>
+      <li>Add a link to your new page in <code>html/index.html</code></li>
+      <li>Commit and push — it will be live on GitHub Pages</li>
+    </ol>
 
-      <h3>Formatting Examples</h3>
-      <p>Pico CSS makes semantic HTML look great out of the box:</p>
+    <blockquote>
+      "The universe is not outside of you. Look inside yourself; everything that you want, you already are."
+    </blockquote>
 
-      <blockquote>
-        "The universe is not outside of you. Look inside yourself; everything that you want, you already are."
-        <footer>— <cite>Rumi</cite></footer>
-      </blockquote>
-
-      <p><a href="./">← Back to HTML Pages</a></p>
-    </article>
+    <p><a href="./">← Back to Pages</a></p>
   </div>
+
+  <!-- Footer Bridge -->
+  <div class="footer-bridge"></div>
 
   <!-- Footer -->
   <footer class="site-footer">
-    <p>&copy; 2026 Nothing But Shiva. All rights reserved.</p>
+    <p class="footer-quote">"Shiva is the soul of all that exists."</p>
+    <ul class="footer-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="../#books">Books</a></li>
+      <li><a href="../#stotras">Stotras</a></li>
+      <li><a href="../articles/">Articles</a></li>
+      <li><a href="../#about">About</a></li>
+    </ul>
+    <p class="footer-brand">Nothing But Shiva</p>
+    <p class="copyright">&copy; 2026 Nothing But Shiva. All rights reserved.</p>
   </footer>
+
+  <button class="scroll-top-btn" aria-label="Scroll to top">↑</button>
 
   <script src="../assets/js/main.js"></script>
 </body>

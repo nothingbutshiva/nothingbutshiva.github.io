@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Pages — Nothing But Shiva</title>
   <meta name="description" content="Browse standalone HTML pages and web content.">
+  <link rel="icon" href="../assets/images/om-icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+
+  <a href="#content" class="skip-link">Skip to content</a>
+  <div class="mobile-backdrop"></div>
 
   <!-- Navigation -->
   <nav class="site-nav">
@@ -33,12 +37,12 @@
 
   <!-- Page Header -->
   <div class="page-header">
-    <p class="breadcrumb"><a href="../">Home</a> / HTML Pages</p>
-    <h1>🌐 HTML Pages</h1>
+    <p class="breadcrumb"><a href="../">Home</a> / Pages</p>
+    <h1>HTML Pages</h1>
   </div>
 
   <!-- Content -->
-  <div class="section">
+  <div id="content" class="section">
     <ul class="item-list" id="html-list">
       <li>
         <a href="sample.html">
@@ -52,21 +56,29 @@
     </ul>
 
     <div id="empty-msg" class="empty-state" style="display:none;">
-      <div class="empty-icon">🌐</div>
-      <p>No HTML pages yet. Add <code>.html</code> files to the <code>html/</code> folder.</p>
+      <div class="empty-icon">📄</div>
+      <p>No HTML pages yet.</p>
     </div>
   </div>
 
+  <!-- Footer Bridge -->
+  <div class="footer-bridge"></div>
+
   <!-- Footer -->
   <footer class="site-footer">
+    <p class="footer-quote">"Shiva is the soul of all that exists."</p>
     <ul class="footer-links">
       <li><a href="../">Home</a></li>
       <li><a href="../#books">Books</a></li>
-      <li><a href="./">HTML</a></li>
-      <li><a href="../markdown/">Articles</a></li>
+      <li><a href="../#stotras">Stotras</a></li>
+      <li><a href="../articles/">Articles</a></li>
+      <li><a href="../#about">About</a></li>
     </ul>
-    <p>&copy; 2026 Nothing But Shiva. All rights reserved.</p>
+    <p class="footer-brand">Nothing But Shiva</p>
+    <p class="copyright">&copy; 2026 Nothing But Shiva. All rights reserved.</p>
   </footer>
+
+  <button class="scroll-top-btn" aria-label="Scroll to top">↑</button>
 
   <script src="../assets/js/main.js"></script>
 </body>
