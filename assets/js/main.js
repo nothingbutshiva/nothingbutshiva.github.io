@@ -145,6 +145,25 @@
     return div.innerHTML;
   }
 
+  // ---------- Reading Progress Bar ----------
+  function initReadingProgress() {
+    var bar = document.getElementById('reading-progress');
+    if (!bar) return;
+    var ticking = false;
+
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        window.requestAnimationFrame(function () {
+          var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+          var scrolled = (window.scrollY / docHeight) * 100;
+          bar.style.width = Math.min(scrolled, 100) + '%';
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+  }
+
   // ---------- Scroll-Aware Nav ----------
   function initScrollNav() {
     var nav = document.querySelector('nav.site-nav');
@@ -224,6 +243,7 @@
     initScrollNav();
     initScrollToTop();
     initScrollReveal();
+    initReadingProgress();
 
     // Render book catalog if container exists
     var catalogEl = document.getElementById('book-catalog');
