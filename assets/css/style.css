@@ -436,7 +436,7 @@ nav.site-nav .nav-links a.active::after {
 
 .hero .tagline {
   font-size: clamp(1rem, 2.2vw, 1.15rem);
-  opacity: 0.75;
+  opacity: 0.85;
   margin-bottom: 0.5rem;
   position: relative;
   font-weight: 300;
@@ -506,7 +506,16 @@ nav.site-nav .nav-links a.active::after {
 .section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4rem 1.5rem;
+  padding: 3.5rem 1.5rem;
+}
+
+/* Alternating section tint for visual rhythm */
+section.section:nth-of-type(even) {
+  background: rgba(63, 81, 181, 0.02);
+}
+
+[data-theme="dark"] section.section:nth-of-type(even) {
+  background: rgba(255, 255, 255, 0.015);
 }
 
 .section-title {
@@ -516,10 +525,12 @@ nav.site-nav .nav-links a.active::after {
   font-weight: 700;
   font-size: 2rem;
   color: var(--brand-primary);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 [data-theme="dark"] .section-title {
   color: var(--brand-accent);
+  text-shadow: none;
 }
 
 .section-subtitle {
@@ -836,10 +847,26 @@ nav.site-nav .nav-links a.active::after {
 .content-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--card-shadow-hover);
+  background-image: linear-gradient(90deg, rgba(63, 81, 181, 0.03) 0%, rgba(255, 179, 0, 0.03) 100%);
+}
+
+[data-theme="dark"] .content-card:hover {
+  background-image: linear-gradient(90deg, rgba(92, 107, 192, 0.06) 0%, rgba(255, 179, 0, 0.04) 100%);
 }
 
 .content-card .card-icon {
   font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: rgba(63, 81, 181, 0.08);
+  border-radius: 50%;
+}
+
+[data-theme="dark"] .content-card .card-icon {
+  background: rgba(255, 179, 0, 0.1);
 }
 
 .content-card h3 {
@@ -873,18 +900,18 @@ nav.site-nav .nav-links a.active::after {
   flex-direction: column;
   gap: 0.4rem;
   border: 1px solid rgba(0, 0, 0, 0.06);
-  border-top: 3px solid var(--brand-primary);
+  border-left: 3px solid var(--brand-primary);
 }
 
 [data-theme="dark"] .stotra-card {
   border-color: rgba(255, 255, 255, 0.06);
-  border-top-color: var(--brand-accent);
+  border-left-color: var(--brand-accent);
 }
 
 .stotra-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--card-shadow-hover);
-  border-top-color: var(--brand-accent);
+  border-left-color: var(--brand-accent);
 }
 
 .stotra-card .stotra-icon {
@@ -940,6 +967,22 @@ nav.site-nav .nav-links a.active::after {
   margin-top: 0;
   background: var(--brand-dark);
   color: var(--text-light);
+  position: relative;
+  overflow: hidden;
+}
+
+.site-footer::before {
+  content: 'ॐ';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18rem;
+  opacity: 0.03;
+  pointer-events: none;
+  color: var(--brand-accent);
+  font-family: var(--font-heading);
+  line-height: 1;
 }
 
 .site-footer .footer-quote {
@@ -970,6 +1013,23 @@ nav.site-nav .nav-links a.active::after {
   color: var(--text-muted);
   transition: color var(--transition-speed);
   letter-spacing: 0.02em;
+  position: relative;
+}
+
+.site-footer .footer-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 1px;
+  background: var(--brand-accent);
+  transition: width var(--transition-speed);
+}
+
+.site-footer .footer-links a:hover::after {
+  width: 100%;
 }
 
 .site-footer .footer-links a:hover {
@@ -1365,6 +1425,59 @@ nav.site-nav .nav-links a.active::after {
 
 .view-all:hover {
   color: var(--brand-accent-hover);
+}
+
+/* ---------- Mantra Banner ---------- */
+.mantra-banner {
+  background: linear-gradient(90deg, var(--brand-primary-dark), var(--brand-primary), var(--brand-purple));
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+}
+
+.mantra-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mantra-label {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 0.2rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.mantra-text {
+  color: var(--brand-accent-light);
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-family: var(--font-heading);
+  margin: 0.25rem 0;
+  letter-spacing: 0.05em;
+}
+
+.mantra-meaning {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  margin: 0;
+  font-style: italic;
+}
+
+/* ---------- Custom Scrollbar ---------- */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--brand-light); }
+::-webkit-scrollbar-thumb { background: var(--brand-primary); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--brand-accent); }
+
+/* ---------- Print Styles ---------- */
+@media print {
+  nav.site-nav, .scroll-top-btn, .footer-bridge, .mobile-backdrop { display: none; }
+  .hero { padding: 1rem; }
+  .section { padding: 1rem; }
 }
 
 /* ---------- Responsive ---------- */
