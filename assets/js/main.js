@@ -128,6 +128,23 @@
         });
 
         container.innerHTML = html;
+
+        // Append static books (non-PDF, like Shiv Puran slokas)
+        var shivPuranCard =
+          '<article class="book-card">' +
+          '<div class="cover-wrapper"><img src="books/covers/shiv-puran-slokas.svg" alt="Shiv Puran cover" loading="lazy"></div>' +
+          '<div class="card-content">' +
+          '<div class="card-body">' +
+          '<h3>Shiv Puran — Selected Slokas</h3>' +
+          '<div class="author">by Nothing But Shiva</div>' +
+          '<p class="description">28 important slokas from the Shiv Puran across 5 chapters — Shiva Tattva, Bhakti, Linga, Shakti &amp; Moksha.</p>' +
+          '</div>' +
+          '<div class="card-actions">' +
+          '<a href="pages/shiv-puran-slokas.html" class="btn-read">📖 Read Online</a>' +
+          '</div>' +
+          '</div>' +
+          '</article>';
+        container.innerHTML += shivPuranCard;
       })
       .catch(function (err) {
         console.error('Catalog load error:', err);
