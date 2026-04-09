@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>$title$ — Nothing But Shiva</title>
-  <meta name="description" content="$if(description)$$description$$else$Read this article on Nothing But Shiva — sacred literature inspired by Lord Shiva.$endif$">
+  <title>Articles — Nothing But Shiva</title>
+  <meta name="description" content="Read articles on Lord Shiva, Hindu spirituality, mythology, and sacred wisdom.">
   <meta name="author" content="Nothing But Shiva">
+  <link rel="canonical" href="https://nothingbutshiva.github.io/articles/">
 
-  <meta property="og:title" content="$title$ — Nothing But Shiva">
-  <meta property="og:description" content="$if(description)$$description$$else$Read this article on Nothing But Shiva.$endif$">
-  <meta property="og:type" content="article">
+  <meta property="og:title" content="Articles — Nothing But Shiva">
+  <meta property="og:description" content="Read articles on Lord Shiva, Hindu spirituality, mythology, and sacred wisdom.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nothingbutshiva.github.io/articles/">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="$title$ — Nothing But Shiva">
+  <meta name="twitter:title" content="Articles — Nothing But Shiva">
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🕉️</text></svg>">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
@@ -30,7 +32,7 @@
       <ul class="nav-links">
         <li><a href="../">Home</a></li>
         <li><a href="../#books">Books</a></li>
-        <li><a href="../articles/" class="active">Articles</a></li>
+        <li><a href="./" class="active">Articles</a></li>
         <li><a href="../#about">About</a></li>
         <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
       </ul>
@@ -39,14 +41,27 @@
 
   <!-- Page Header -->
   <div class="page-header">
-    <p class="breadcrumb"><a href="../">Home</a> / <a href="../articles/">Articles</a> / $title$</p>
-    <h1>$title$</h1>
-    $if(date)$<p style="opacity:0.6; font-size:0.9rem;">$date$</p>$endif$
+    <p class="breadcrumb"><a href="../">Home</a> / Articles</p>
+    <h1>Articles &amp; Writings</h1>
   </div>
 
-  <!-- Article Content -->
-  <div class="section markdown-content">
-    $body$
+  <!-- Content -->
+  <div class="section">
+    <p class="section-subtitle">Writings on spirituality, devotion, and the teachings of Lord Shiva.</p>
+
+    <div class="articles-grid">
+      <a href="../pages/sample.html" class="article-card fade-in">
+        <div class="article-meta">📝 Article</div>
+        <h3>Welcome to Nothing But Shiva</h3>
+        <p>An introductory article about the sacred book collection and our mission to share spiritual wisdom.</p>
+        <span class="read-link">Read article →</span>
+      </a>
+    </div>
+
+    <div id="empty-msg" class="empty-state" style="display:none;">
+      <div class="empty-icon">📝</div>
+      <p>More articles coming soon. Stay tuned for writings on Lord Shiva and Hindu spirituality.</p>
+    </div>
   </div>
 
   <!-- Footer -->
@@ -55,7 +70,7 @@
     <ul class="footer-links">
       <li><a href="../">Home</a></li>
       <li><a href="../#books">Books</a></li>
-      <li><a href="../articles/">Articles</a></li>
+      <li><a href="./">Articles</a></li>
       <li><a href="../#about">About</a></li>
     </ul>
     <p class="footer-brand">🕉️ Nothing But Shiva</p>

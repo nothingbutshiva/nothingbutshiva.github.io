@@ -3,14 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nothing But Shiva — Book Collection</title>
-  <meta name="description" content="Explore and read books by Nothing But Shiva. A curated collection of literature available to read online for free.">
-  <meta property="og:title" content="Nothing But Shiva — Book Collection">
-  <meta property="og:description" content="Explore and read books online. A curated collection of literature by Nothing But Shiva.">
+  <title>Nothing But Shiva — Sacred Books &amp; Spiritual Literature</title>
+  <meta name="description" content="Discover sacred literature inspired by Lord Shiva. Read books on Hindu spirituality, mythology, and devotion — online, anytime, for free.">
+  <meta name="keywords" content="Lord Shiva, Hindu books, spiritual literature, Shiva devotion, Hindu mythology, sacred texts, online reading">
+  <meta name="author" content="Nothing But Shiva">
+  <link rel="canonical" href="https://nothingbutshiva.github.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Nothing But Shiva — Sacred Books & Spiritual Literature">
+  <meta property="og:description" content="Discover sacred literature inspired by Lord Shiva. Read books on Hindu spirituality, mythology, and devotion — free online.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://nothingbutshiva.github.io/">
+  <meta property="og:site_name" content="Nothing But Shiva">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Nothing But Shiva — Sacred Books & Spiritual Literature">
+  <meta name="twitter:description" content="Discover sacred literature inspired by Lord Shiva. Read books on Hindu spirituality, mythology, and devotion online.">
+
+  <!-- Favicon (Om symbol) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🕉️</text></svg>">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Nothing But Shiva",
+        "url": "https://nothingbutshiva.github.io/",
+        "description": "Sacred literature inspired by Lord Shiva — books on Hindu spirituality, mythology, and devotion.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Nothing But Shiva",
+          "url": "https://nothingbutshiva.github.io/"
+        }
+      },
+      {
+        "@type": "CollectionPage",
+        "name": "Book Collection",
+        "description": "A curated collection of books on Lord Shiva, Hindu spirituality, and sacred literature.",
+        "url": "https://nothingbutshiva.github.io/#books",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Nothing But Shiva"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -18,15 +65,15 @@
   <nav class="site-nav">
     <div class="nav-inner">
       <a href="/" class="nav-brand">
-        <span class="brand-icon">📚</span>
+        <span class="brand-icon">🕉️</span>
         Nothing But Shiva
       </a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       <ul class="nav-links">
         <li><a href="/" class="active">Home</a></li>
         <li><a href="#books">Books</a></li>
-        <li><a href="html/">HTML Pages</a></li>
-        <li><a href="markdown/">Articles</a></li>
+        <li><a href="articles/">Articles</a></li>
+        <li><a href="#about">About</a></li>
         <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
       </ul>
     </div>
@@ -34,49 +81,70 @@
 
   <!-- Hero Section -->
   <section class="hero">
+    <span class="hero-symbol">🕉️</span>
     <h1>Nothing But <span class="accent">Shiva</span></h1>
-    <p class="tagline">A curated collection of books — read online, anytime, anywhere.</p>
-    <a href="#books" class="cta-btn">Browse Collection</a>
+    <p class="tagline">Sacred literature inspired by Lord Shiva — explore the depths of Hindu spirituality, mythology, and eternal wisdom.</p>
+    <p class="hero-sanskrit">ॐ नमः शिवाय</p>
+    <a href="#books" class="cta-btn">Explore Books</a>
   </section>
 
   <!-- Books Section -->
   <section id="books" class="section">
-    <h2 class="section-title">📖 Book Collection</h2>
-    <p class="section-subtitle">Select a book to start reading online with our built-in PDF reader.</p>
+    <h2 class="section-title">Sacred Collection</h2>
+    <p class="section-subtitle">Explore books on Lord Shiva, Hindu philosophy, and spiritual wisdom. Read online with our built-in reader.</p>
+    <div class="divider"><span class="divider-icon">✦</span></div>
     <div id="book-catalog" class="book-grid" data-catalog="books/catalog.json">
-      <!-- Books loaded dynamically from catalog.json -->
       <div class="spinner"></div>
     </div>
   </section>
 
-  <!-- Content Sections -->
+  <!-- Articles Section -->
   <section class="section">
-    <h2 class="section-title">Explore More</h2>
-    <p class="section-subtitle">Discover additional content beyond the book collection.</p>
-    <div class="content-grid">
-      <a href="html/" class="content-card fade-in">
-        <div class="card-icon">🌐</div>
-        <h3>HTML Pages</h3>
-        <p>Browse standalone HTML content and web pages.</p>
+    <h2 class="section-title">Latest Articles</h2>
+    <p class="section-subtitle">Writings on spirituality, devotion, and the teachings of Lord Shiva.</p>
+    <div class="divider"><span class="divider-icon">✦</span></div>
+    <div class="articles-grid">
+      <a href="pages/sample.html" class="article-card fade-in">
+        <div class="article-meta">📝 Article</div>
+        <h3>Welcome to Nothing But Shiva</h3>
+        <p>An introductory article about the sacred book collection and our mission to share spiritual wisdom.</p>
+        <span class="read-link">Read article →</span>
       </a>
-      <a href="markdown/" class="content-card fade-in">
-        <div class="card-icon">📝</div>
-        <h3>Articles &amp; Notes</h3>
-        <p>Read articles and written content in a clean, readable format.</p>
-      </a>
+    </div>
+    <a href="articles/" class="view-all">View all articles →</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="section">
+      <div class="about-inner">
+        <h2 class="section-title">About</h2>
+        <div class="divider"><span class="divider-icon">✦</span></div>
+        <p>
+          <strong>Nothing But Shiva</strong> is a humble offering dedicated to Lord Shiva — the supreme consciousness, the destroyer of ignorance, and the source of eternal bliss. Through these books and writings, we aim to share the timeless wisdom of Hindu scriptures, mythology, and spiritual traditions with readers worldwide.
+        </p>
+        <p>
+          Every book in this collection is available to read online, free of charge. Our mission is simple: to make sacred knowledge accessible to all seekers on the path of devotion and self-realization.
+        </p>
+        <blockquote class="about-quote">
+          "The one who sees inaction in action, and action in inaction, is wise among all beings."
+        </blockquote>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="site-footer">
+    <p class="footer-quote">"Shiva is the soul of all that exists. In his dance, the universe is born, sustained, and dissolved."</p>
     <ul class="footer-links">
       <li><a href="/">Home</a></li>
       <li><a href="#books">Books</a></li>
-      <li><a href="html/">HTML</a></li>
-      <li><a href="markdown/">Articles</a></li>
+      <li><a href="articles/">Articles</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="https://github.com/nothingbutshiva" target="_blank" rel="noopener">GitHub</a></li>
     </ul>
-    <p>&copy; 2026 Nothing But Shiva. All rights reserved.</p>
+    <p class="footer-brand">🕉️ Nothing But Shiva</p>
+    <p class="copyright">&copy; 2026 Nothing But Shiva. All rights reserved.</p>
   </footer>
 
   <script src="assets/js/main.js"></script>
