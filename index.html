@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nothing But Shiva — Book Collection</title>
+  <meta name="description" content="Explore and read books by Nothing But Shiva. A curated collection of literature available to read online for free.">
+  <meta property="og:title" content="Nothing But Shiva — Book Collection">
+  <meta property="og:description" content="Explore and read books online. A curated collection of literature by Nothing But Shiva.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nothingbutshiva.github.io/">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <span class="brand-icon">📚</span>
+        Nothing But Shiva
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="html/">HTML Pages</a></li>
+        <li><a href="markdown/">Articles</a></li>
+        <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Nothing But <span class="accent">Shiva</span></h1>
+    <p class="tagline">A curated collection of books — read online, anytime, anywhere.</p>
+    <a href="#books" class="cta-btn">Browse Collection</a>
+  </section>
+
+  <!-- Books Section -->
+  <section id="books" class="section">
+    <h2 class="section-title">📖 Book Collection</h2>
+    <p class="section-subtitle">Select a book to start reading online with our built-in PDF reader.</p>
+    <div id="book-catalog" class="book-grid" data-catalog="books/catalog.json">
+      <!-- Books loaded dynamically from catalog.json -->
+      <div class="spinner"></div>
+    </div>
+  </section>
+
+  <!-- Content Sections -->
+  <section class="section">
+    <h2 class="section-title">Explore More</h2>
+    <p class="section-subtitle">Discover additional content beyond the book collection.</p>
+    <div class="content-grid">
+      <a href="html/" class="content-card fade-in">
+        <div class="card-icon">🌐</div>
+        <h3>HTML Pages</h3>
+        <p>Browse standalone HTML content and web pages.</p>
+      </a>
+      <a href="markdown/" class="content-card fade-in">
+        <div class="card-icon">📝</div>
+        <h3>Articles &amp; Notes</h3>
+        <p>Read articles and written content in a clean, readable format.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="html/">HTML</a></li>
+      <li><a href="markdown/">Articles</a></li>
+      <li><a href="https://github.com/nothingbutshiva" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+    <p>&copy; 2026 Nothing But Shiva. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

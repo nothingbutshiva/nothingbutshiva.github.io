@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Pages — Nothing But Shiva</title>
+  <meta name="description" content="Browse standalone HTML pages and web content.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="../" class="nav-brand">
+        <span class="brand-icon">📚</span>
+        Nothing But Shiva
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="../">Home</a></li>
+        <li><a href="../#books">Books</a></li>
+        <li><a href="./" class="active">HTML Pages</a></li>
+        <li><a href="../markdown/">Articles</a></li>
+        <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <p class="breadcrumb"><a href="../">Home</a> / HTML Pages</p>
+    <h1>🌐 HTML Pages</h1>
+  </div>
+
+  <!-- Content -->
+  <div class="section">
+    <ul class="item-list" id="html-list">
+      <li>
+        <a href="sample.html">
+          <span class="item-icon">📄</span>
+          <div class="item-info">
+            <h3>Sample Page</h3>
+            <p>A sample standalone HTML page to demonstrate the layout.</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div id="empty-msg" class="empty-state" style="display:none;">
+      <div class="empty-icon">🌐</div>
+      <p>No HTML pages yet. Add <code>.html</code> files to the <code>html/</code> folder.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="../#books">Books</a></li>
+      <li><a href="./">HTML</a></li>
+      <li><a href="../markdown/">Articles</a></li>
+    </ul>
+    <p>&copy; 2026 Nothing But Shiva. All rights reserved.</p>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PDF Reader — Nothing But Shiva</title>
+  <meta name="description" content="Read books online with the Nothing But Shiva PDF reader.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    /* Reader page overrides — no padding on body */
+    body { margin: 0; padding: 0; overflow: hidden; }
+    nav.site-nav { position: relative; }
+  </style>
+</head>
+<body>
+
+  <!-- Minimal Navigation -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="../" class="nav-brand">
+        <span class="brand-icon">📚</span>
+        Nothing But Shiva
+      </a>
+      <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
+
+  <!-- Reader Container -->
+  <div class="reader-container">
+
+    <!-- Toolbar -->
+    <div class="reader-toolbar">
+      <div class="toolbar-group">
+        <a href="../" style="text-decoration:none;font-size:0.9rem;">← Back</a>
+        <span class="book-title">PDF Document</span>
+      </div>
+
+      <div class="toolbar-group">
+        <button id="prev-page" title="Previous page (←)" disabled>◀ Prev</button>
+        <div class="page-info">
+          <input type="number" id="page-input" value="1" min="1" aria-label="Page number">
+          <span>/</span>
+          <span id="page-count">-</span>
+        </div>
+        <button id="next-page" title="Next page (→)" disabled>Next ▶</button>
+      </div>
+
+      <div class="toolbar-group">
+        <button id="zoom-out" title="Zoom out (−)">−</button>
+        <span id="zoom-level">150%</span>
+        <button id="zoom-in" title="Zoom in (+)">+</button>
+        <button id="fit-width-btn" title="Fit to width">↔ Fit</button>
+        <button id="fullscreen-btn" title="Fullscreen (F)">⛶</button>
+      </div>
+    </div>
+
+    <!-- PDF Viewport -->
+    <div class="reader-viewport" style="position:relative;">
+      <canvas id="pdf-canvas"></canvas>
+
+      <!-- Loading Overlay -->
+      <div class="reader-loading">
+        <div class="spinner"></div>
+        <span class="loading-text">Loading PDF…</span>
+        <div class="progress-bar">
+          <div class="progress-fill"></div>
+        </div>
+      </div>
+
+      <!-- Error message (hidden by default) -->
+      <div id="reader-error" class="empty-state" style="display:none; position:absolute; inset:0; background:var(--pico-background-color);"></div>
+    </div>
+
+  </div>
+
+  <!-- PDF.js Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.mjs" type="module"></script>
+  <script>
+    // Load PDF.js as a global for reader.js to use
+    // PDF.js 4.x uses ES modules, so we load it and expose globally
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="reader.js"></script>
+</body>
+</html>

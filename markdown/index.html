@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Articles — Nothing But Shiva</title>
+  <meta name="description" content="Read articles and written content from Nothing But Shiva.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="../" class="nav-brand">
+        <span class="brand-icon">📚</span>
+        Nothing But Shiva
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="../">Home</a></li>
+        <li><a href="../#books">Books</a></li>
+        <li><a href="../html/">HTML Pages</a></li>
+        <li><a href="./" class="active">Articles</a></li>
+        <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <p class="breadcrumb"><a href="../">Home</a> / Articles</p>
+    <h1>📝 Articles &amp; Notes</h1>
+  </div>
+
+  <!-- Content -->
+  <div class="section">
+    <p class="section-subtitle">Written content converted from Markdown to HTML automatically.</p>
+
+    <ul class="item-list" id="articles-list">
+      <li>
+        <a href="../pages/sample.html">
+          <span class="item-icon">📝</span>
+          <div class="item-info">
+            <h3>Welcome to Nothing But Shiva</h3>
+            <p>An introductory article about the book collection.</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div id="empty-msg" class="empty-state" style="display:none;">
+      <div class="empty-icon">📝</div>
+      <p>No articles yet. Add <code>.md</code> files to the <code>markdown/</code> folder.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="../#books">Books</a></li>
+      <li><a href="../html/">HTML</a></li>
+      <li><a href="./">Articles</a></li>
+    </ul>
+    <p>&copy; 2026 Nothing But Shiva. All rights reserved.</p>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

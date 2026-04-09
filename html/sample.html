@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sample Page — Nothing But Shiva</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="../" class="nav-brand">
+        <span class="brand-icon">📚</span>
+        Nothing But Shiva
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="../">Home</a></li>
+        <li><a href="../#books">Books</a></li>
+        <li><a href="./" class="active">HTML Pages</a></li>
+        <li><a href="../markdown/">Articles</a></li>
+        <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <p class="breadcrumb"><a href="../">Home</a> / <a href="./">HTML Pages</a> / Sample Page</p>
+    <h1>Sample HTML Page</h1>
+  </div>
+
+  <!-- Content -->
+  <div class="section" style="max-width:800px;">
+    <article>
+      <h2>Welcome</h2>
+      <p>
+        This is a sample standalone HTML page. You can add any custom HTML content here.
+        Each page in the <code>html/</code> folder is served as-is with no processing.
+      </p>
+
+      <h3>How to Add Pages</h3>
+      <ol>
+        <li>Create a new <code>.html</code> file in the <code>html/</code> folder</li>
+        <li>Use the same navigation and styling by including the Pico CSS and custom stylesheet</li>
+        <li>Add a link to your new page in <code>html/index.html</code></li>
+        <li>Commit and push — it will be live on GitHub Pages</li>
+      </ol>
+
+      <h3>Formatting Examples</h3>
+      <p>Pico CSS makes semantic HTML look great out of the box:</p>
+
+      <blockquote>
+        "The universe is not outside of you. Look inside yourself; everything that you want, you already are."
+        <footer>— <cite>Rumi</cite></footer>
+      </blockquote>
+
+      <p><a href="./">← Back to HTML Pages</a></p>
+    </article>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Nothing But Shiva. All rights reserved.</p>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "sample-book",
+    "title": "Sample Book",
+    "author": "Nothing But Shiva",
+    "description": "This is a sample book entry. Replace it with your actual book details, cover image, and PDF file.",
+    "cover": "",
+    "pdf": "books/sample-book.pdf"
+  }
+]
