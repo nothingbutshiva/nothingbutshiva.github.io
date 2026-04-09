@@ -68,7 +68,7 @@ Dakshinamurthy is Shiva as the Adi Guru — the first and supreme teacher. In th
 
 The Dakshinamurthy Stotram by Adi Shankaracharya is one of the most celebrated hymns in Advaita Vedanta, opening with the verse:
 
-> **"चित्रं वटतरोर्मूले वृद्धाः शिष्या गुरुर्युवा।
+> **"चित्रं वटतरोर्मूले वृद्धाः शिष्या गुरुर्युवा।  
 > गुरोस्तु मौनं व्याख्यानं शिष्यास्तु छिन्नसंशयाः॥"**
 > *"Wondrous it is — beneath the banyan tree, the disciples are old and the teacher is young. The teacher's exposition is silence, and the disciples' doubts are fully resolved."*
 
