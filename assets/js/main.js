@@ -140,7 +140,7 @@
           '<p class="description">28 important slokas from the Shiv Puran across 5 chapters — Shiva Tattva, Bhakti, Linga, Shakti &amp; Moksha.</p>' +
           '</div>' +
           '<div class="card-actions">' +
-          '<a href="pages/shiv-puran-slokas.html" class="btn-read">📖 Read Online</a>' +
+          '<a href="stotras/shiv-puran-slokas.html" class="btn-read">📖 Read Online</a>' +
           '</div>' +
           '</div>' +
           '</article>';

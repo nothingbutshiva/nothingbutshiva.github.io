@@ -25,19 +25,19 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
       - name: Create pages output directory
-        run: mkdir -p pages
+        run: mkdir -p stotras
 
       - name: Convert Markdown to HTML
         run: |
           for file in markdown/*.md; do
             [ -f "$file" ] || continue
             basename=$(basename "$file" .md)
-            echo "Converting $file -> pages/${basename}.html"
+            echo "Converting $file -> stotras/${basename}.html"
             pandoc "$file" \
               --template=markdown/template.html \
               --standalone \
               --metadata title-prefix="Nothing But Shiva" \
-              -o "pages/${basename}.html"
+              -o "stotras/${basename}.html"
           done
 
       - name: Generate sitemap
@@ -59,12 +59,12 @@ jobs:
               <priority>0.8</priority>
             </url>
           EOF
-          for file in pages/*.html; do
+          for file in stotras/*.html; do
             [ -f "$file" ] || continue
             basename=$(basename "$file")
             cat >> sitemap.xml <<ENTRY
             <url>
-              <loc>https://nothingbutshiva.github.io/pages/${basename}</loc>
+              <loc>https://nothingbutshiva.github.io/stotras/${basename}</loc>
               <lastmod>${TODAY}</lastmod>
               <changefreq>monthly</changefreq>
               <priority>0.6</priority>
