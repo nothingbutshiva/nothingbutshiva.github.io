@@ -15,13 +15,13 @@
   <style>
     body { margin: 0; padding: 0; overflow: hidden; background: #2a2a2e; }
     [data-theme="light"] body { background: #e8e4df; }
-    nav.site-nav { position: relative; }
+    nav.site-nav { position: relative; padding: 0.3rem 1rem; }
 
     /* Book Reader Layout */
     .book-reader {
       display: flex;
       flex-direction: column;
-      height: calc(100vh - 52px);
+      height: calc(100vh - 40px);
       user-select: none;
     }
 
@@ -30,28 +30,28 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 0.75rem;
-      padding: 0.4rem 1rem;
+      gap: 0.5rem;
+      padding: 0.25rem 0.75rem;
       background: var(--pico-card-background-color, #fff);
       border-bottom: 1px solid rgba(15, 20, 25, 0.08);
       flex-wrap: wrap;
       z-index: 50;
-      min-height: 44px;
+      min-height: 36px;
     }
 
     .toolbar-group {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.4rem;
     }
 
     .reader-toolbar button {
       background: none;
       border: 1px solid rgba(15, 20, 25, 0.1);
       border-radius: 6px;
-      padding: 0.35rem 0.7rem;
+      padding: 0.25rem 0.5rem;
       cursor: pointer;
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       display: flex;
       align-items: center;
       gap: 0.3rem;
@@ -77,20 +77,20 @@
     }
 
     .page-info {
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       display: flex;
       align-items: center;
-      gap: 0.3rem;
+      gap: 0.25rem;
       color: var(--text-secondary);
     }
 
     .page-info input {
-      width: 44px;
+      width: 38px;
       text-align: center;
-      padding: 0.25rem;
+      padding: 0.2rem;
       border: 1px solid rgba(15, 20, 25, 0.12);
       border-radius: 4px;
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       margin: 0;
       font-family: var(--font-body);
     }
@@ -98,17 +98,17 @@
     .book-title {
       font-family: var(--font-heading);
       font-weight: 600;
-      font-size: 0.95rem;
+      font-size: 0.85rem;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
-      max-width: 280px;
+      max-width: 220px;
       color: var(--text-primary);
     }
 
     .back-link {
       text-decoration: none;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       color: var(--text-secondary);
       transition: color 0.2s;
     }
@@ -345,7 +345,7 @@
   <nav class="site-nav">
     <div class="nav-inner">
       <a href="../" class="nav-brand">
-        <img src="../assets/images/om-icon.svg" class="brand-om" width="28" height="28" alt="Om">
+        <img src="../assets/images/om-icon.svg" class="brand-om" width="22" height="22" alt="Om">
         Nothing But Shiva
       </a>
       <button class="theme-toggle" aria-label="Toggle dark mode">&#x1F319;</button>
@@ -374,7 +374,7 @@
 
       <div class="toolbar-group">
         <button id="zoom-out" title="Zoom out">&minus;</button>
-        <span id="zoom-level" style="font-size:0.82rem;color:var(--text-secondary);min-width:36px;text-align:center;">100%</span>
+        <span id="zoom-level" style="font-size:0.78rem;color:var(--text-secondary);min-width:32px;text-align:center;">100%</span>
         <button id="zoom-in" title="Zoom in">+</button>
         <button id="view-mode" title="Toggle single/spread view">&#x1F4D6;</button>
         <button id="fullscreen-btn" title="Fullscreen (F)">&#x26F6;</button>
