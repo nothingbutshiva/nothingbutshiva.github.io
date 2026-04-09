@@ -436,7 +436,8 @@ nav.site-nav .nav-links a.active::after {
 
 .hero .tagline {
   font-size: clamp(1rem, 2.2vw, 1.15rem);
-  opacity: 0.85;
+  color: #fff;
+  opacity: 1;
   margin-bottom: 0.5rem;
   position: relative;
   font-weight: 300;
