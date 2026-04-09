@@ -34,21 +34,32 @@
 
   // ---------- Mobile Nav Toggle ----------
   function initMobileNav() {
-    const toggle = document.querySelector('.nav-toggle');
-    const links = document.querySelector('.nav-links');
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.querySelector('.nav-links');
+    var backdrop = document.querySelector('.mobile-backdrop');
     if (!toggle || !links) return;
 
+    function closeNav() {
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      if (backdrop) backdrop.classList.remove('visible');
+    }
+
     toggle.addEventListener('click', function () {
-      links.classList.toggle('open');
-      toggle.setAttribute('aria-expanded', links.classList.contains('open'));
+      var isOpen = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      if (backdrop) {
+        if (isOpen) { backdrop.classList.add('visible'); }
+        else { backdrop.classList.remove('visible'); }
+      }
     });
 
-    // Close on link click
+    if (backdrop) {
+      backdrop.addEventListener('click', closeNav);
+    }
+
     links.querySelectorAll('a').forEach(function (a) {
-      a.addEventListener('click', function () {
-        links.classList.remove('open');
-        toggle.setAttribute('aria-expanded', 'false');
-      });
+      a.addEventListener('click', closeNav);
     });
   }
 
@@ -134,11 +145,85 @@
     return div.innerHTML;
   }
 
+  // ---------- Scroll-Aware Nav ----------
+  function initScrollNav() {
+    var nav = document.querySelector('nav.site-nav');
+    if (!nav) return;
+    var scrollThreshold = 80;
+    var ticking = false;
+
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        window.requestAnimationFrame(function () {
+          if (window.scrollY > scrollThreshold) {
+            nav.classList.add('scrolled');
+          } else {
+            nav.classList.remove('scrolled');
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+  }
+
+  // ---------- Scroll-to-Top Button ----------
+  function initScrollToTop() {
+    var btn = document.querySelector('.scroll-top-btn');
+    if (!btn) return;
+    var showThreshold = 400;
+    var ticking = false;
+
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        window.requestAnimationFrame(function () {
+          if (window.scrollY > showThreshold) {
+            btn.classList.add('visible');
+          } else {
+            btn.classList.remove('visible');
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  // ---------- Scroll-Triggered Reveal ----------
+  function initScrollReveal() {
+    var elements = document.querySelectorAll('.fade-in');
+    if (!elements.length) return;
+
+    if (!('IntersectionObserver' in window)) {
+      // Fallback: show all immediately
+      elements.forEach(function (el) { el.classList.add('visible'); });
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    elements.forEach(function (el) { observer.observe(el); });
+  }
+
   // ---------- Init ----------
   document.addEventListener('DOMContentLoaded', function () {
     initTheme();
     initMobileNav();
     highlightActiveNav();
+    initScrollNav();
+    initScrollToTop();
+    initScrollReveal();
 
     // Render book catalog if container exists
     var catalogEl = document.getElementById('book-catalog');
