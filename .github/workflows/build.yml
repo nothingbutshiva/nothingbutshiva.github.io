@@ -42,18 +42,38 @@ jobs:
 
       - name: Generate sitemap
         run: |
-          cat > sitemap.xml << 'SITEMAP'
+          TODAY=$(date -u +%Y-%m-%d)
+          cat > sitemap.xml <<EOF
           <?xml version="1.0" encoding="UTF-8"?>
           <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            <url><loc>https://nothingbutshiva.github.io/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-            <url><loc>https://nothingbutshiva.github.io/articles/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-          SITEMAP
+            <url>
+              <loc>https://nothingbutshiva.github.io/</loc>
+              <lastmod>${TODAY}</lastmod>
+              <changefreq>weekly</changefreq>
+              <priority>1.0</priority>
+            </url>
+            <url>
+              <loc>https://nothingbutshiva.github.io/articles/</loc>
+              <lastmod>${TODAY}</lastmod>
+              <changefreq>weekly</changefreq>
+              <priority>0.8</priority>
+            </url>
+          EOF
           for file in pages/*.html; do
             [ -f "$file" ] || continue
             basename=$(basename "$file")
-            echo "  <url><loc>https://nothingbutshiva.github.io/pages/${basename}</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>" >> sitemap.xml
+            cat >> sitemap.xml <<ENTRY
+            <url>
+              <loc>https://nothingbutshiva.github.io/pages/${basename}</loc>
+              <lastmod>${TODAY}</lastmod>
+              <changefreq>monthly</changefreq>
+              <priority>0.6</priority>
+            </url>
+          ENTRY
           done
           echo "</urlset>" >> sitemap.xml
+          # Remove leading whitespace from heredoc
+          sed -i 's/^[[:space:]]*//' sitemap.xml
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

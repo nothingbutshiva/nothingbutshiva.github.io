@@ -6,10 +6,10 @@
   'use strict';
 
   // ---------- Theme Toggle ----------
-  const THEME_KEY = 'nbs-theme';
+  var THEME_KEY = 'nbs-theme';
 
   function getPreferredTheme() {
-    const stored = localStorage.getItem(THEME_KEY);
+    var stored = localStorage.getItem(THEME_KEY);
     if (stored) return stored;
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
   }
@@ -17,16 +17,16 @@
   function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem(THEME_KEY, theme);
-    const btn = document.querySelector('.theme-toggle');
+    var btn = document.querySelector('.theme-toggle');
     if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
   }
 
   function initTheme() {
     applyTheme(getPreferredTheme());
-    const btn = document.querySelector('.theme-toggle');
+    var btn = document.querySelector('.theme-toggle');
     if (btn) {
       btn.addEventListener('click', function () {
-        const current = document.documentElement.getAttribute('data-theme');
+        var current = document.documentElement.getAttribute('data-theme');
         applyTheme(current === 'dark' ? 'light' : 'dark');
       });
     }
@@ -212,27 +212,182 @@
     });
   }
 
-  // ---------- Scroll-Triggered Reveal ----------
+  // ---------- Scroll-Triggered Reveal (with stagger) ----------
   function initScrollReveal() {
     var elements = document.querySelectorAll('.fade-in');
     if (!elements.length) return;
 
     if (!('IntersectionObserver' in window)) {
-      // Fallback: show all immediately
       elements.forEach(function (el) { el.classList.add('visible'); });
       return;
+    }
+
+    var pendingBatch = [];
+    var batchTimer = null;
+    var STAGGER_DELAY = 80;
+
+    function flushBatch() {
+      var batch = pendingBatch.slice();
+      pendingBatch = [];
+      batchTimer = null;
+      batch.forEach(function (el, i) {
+        setTimeout(function () {
+          el.classList.add('visible');
+        }, i * STAGGER_DELAY);
+      });
     }
 
     var observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
+          pendingBatch.push(entry.target);
           observer.unobserve(entry.target);
         }
       });
+      if (pendingBatch.length && !batchTimer) {
+        batchTimer = setTimeout(flushBatch, 50);
+      }
     }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
     elements.forEach(function (el) { observer.observe(el); });
+  }
+
+  // ---------- Typing Effect for Hero Sanskrit ----------
+  function initTypingEffect() {
+    var el = document.querySelector('.hero-sanskrit');
+    if (!el) return;
+    var fullText = el.textContent;
+    var charIndex = 0;
+    el.textContent = '';
+    el.classList.add('typing-cursor');
+
+    function typeNext() {
+      if (charIndex < fullText.length) {
+        el.textContent += fullText.charAt(charIndex);
+        charIndex++;
+        setTimeout(typeNext, 100);
+      } else {
+        setTimeout(function () {
+          el.classList.remove('typing-cursor');
+        }, 1500);
+      }
+    }
+
+    setTimeout(typeNext, 500);
+  }
+
+  // ---------- Animated Number Counter ----------
+  function initCounterAnimation() {
+    var el = document.querySelector('.highlight-number');
+    if (!el) return;
+    var text = el.textContent.trim();
+    // Only animate elements that contain a number like "20+"
+    var match = text.match(/^(\d+)(\+?)$/);
+    if (!match) return;
+    var target = parseInt(match[1], 10);
+    var suffix = match[2] || '';
+
+    if (!('IntersectionObserver' in window)) {
+      return; // keep static text as fallback
+    }
+
+    var animated = false;
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting && !animated) {
+          animated = true;
+          observer.unobserve(entry.target);
+          animateCount(el, target, suffix, 1500);
+        }
+      });
+    }, { threshold: 0.3 });
+
+    observer.observe(el);
+  }
+
+  function animateCount(el, target, suffix, duration) {
+    var start = null;
+    function step(timestamp) {
+      if (!start) start = timestamp;
+      var progress = Math.min((timestamp - start) / duration, 1);
+      // Ease-out curve
+      var eased = 1 - Math.pow(1 - progress, 3);
+      var current = Math.round(eased * target);
+      el.textContent = current + (progress >= 1 ? suffix : '');
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      }
+    }
+    el.textContent = '0';
+    requestAnimationFrame(step);
+  }
+
+  // ---------- Stotra Search / Filter ----------
+  function initStotraSearch() {
+    var input = document.getElementById('stotra-search');
+    if (!input) return;
+    var cards = document.querySelectorAll('.stotra-card');
+    if (!cards.length) return;
+
+    input.addEventListener('input', function () {
+      var query = input.value.toLowerCase().trim();
+      cards.forEach(function (card) {
+        var h3 = card.querySelector('h3');
+        var p = card.querySelector('p');
+        var title = h3 ? h3.textContent.toLowerCase() : '';
+        var desc = p ? p.textContent.toLowerCase() : '';
+        if (!query || title.indexOf(query) !== -1 || desc.indexOf(query) !== -1) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  }
+
+  // ---------- Mantra Rotator ----------
+  function initMantraRotator() {
+    var container = document.querySelector('.highlight-mantra');
+    if (!container) return;
+    var mantraEl = container.querySelector('.highlight-number');
+    var labelEl = container.querySelector('.highlight-label');
+    if (!mantraEl || !labelEl) return;
+
+    var mantras = [
+      '\u0950 \u0928\u092E\u0903 \u0936\u093F\u0935\u093E\u092F',
+      '\u0939\u0930 \u0939\u0930 \u092E\u0939\u093E\u0926\u0947\u0935',
+      '\u0950 \u0924\u094D\u0930\u094D\u092F\u092E\u094D\u092C\u0915\u0902 \u092F\u091C\u093E\u092E\u0939\u0947',
+      '\u0936\u093F\u0935\u0902 \u0936\u0902\u0915\u0930\u0902',
+      '\u0950 \u0928\u092E\u094B \u092D\u0917\u0935\u0924\u0947 \u0930\u0941\u0926\u094D\u0930\u093E\u092F'
+    ];
+    var translations = [
+      'Om Namah Shivaya',
+      'Hail Lord Mahadeva',
+      'Om Tryambakam Yajamahe',
+      'Shivam Shankaram',
+      'Om Namo Bhagavate Rudraya'
+    ];
+    var index = 0;
+    var INTERVAL = 8000;
+    var FADE_DURATION = 400;
+
+    function rotate() {
+      index = (index + 1) % mantras.length;
+      // Fade out
+      mantraEl.style.transition = 'opacity ' + FADE_DURATION + 'ms ease';
+      labelEl.style.transition = 'opacity ' + FADE_DURATION + 'ms ease';
+      mantraEl.style.opacity = '0';
+      labelEl.style.opacity = '0';
+
+      setTimeout(function () {
+        mantraEl.textContent = mantras[index];
+        labelEl.textContent = translations[index];
+        mantraEl.style.opacity = '1';
+        labelEl.style.opacity = '1';
+      }, FADE_DURATION);
+    }
+
+    setInterval(rotate, INTERVAL);
   }
 
   // ---------- Init ----------
@@ -244,6 +399,10 @@
     initScrollToTop();
     initScrollReveal();
     initReadingProgress();
+    initTypingEffect();
+    initCounterAnimation();
+    initStotraSearch();
+    initMantraRotator();
 
     // Render book catalog if container exists
     var catalogEl = document.getElementById('book-catalog');
