@@ -1371,9 +1371,9 @@ section.section:nth-of-type(even) {
 
 /* ---------- Markdown Content — Book-like Reading Experience ---------- */
 .markdown-content {
-  max-width: 750px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem;
+  padding: 2.5rem 2rem;
   line-height: 1.85;
   background: var(--brand-surface);
   border-radius: var(--radius);
@@ -1386,8 +1386,7 @@ section.section:nth-of-type(even) {
 
 @media (min-width: 800px) {
   .markdown-content {
-    padding: 3.5rem 4rem;
-    border-radius: var(--radius) var(--radius) var(--radius) var(--radius);
+    padding: 3rem 4rem;
     box-shadow: 0 4px 32px rgba(0, 0, 0, 0.08), 0 1px 4px rgba(0, 0, 0, 0.04);
   }
 }

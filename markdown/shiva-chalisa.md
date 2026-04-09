@@ -16,7 +16,7 @@ The Shiva Chalisa is a traditional devotional hymn of forty verses (*chaupai*) o
 
 **Hindi (हिन्दी):**
 
-जय गणेश गिरिजा सुवन, मंगल मूल सुजान।
+जय गणेश गिरिजा सुवन, मंगल मूल सुजान।  
 कहत अयोध्यादास तुम, देहु अभय वरदान॥
 
 **English Translation:**
@@ -28,7 +28,7 @@ Ayodhyadas humbly implores: grant me the boon of fearlessness.
 
 **Hindi (हिन्दी):**
 
-जय गिरिजा पति दीनदयाला, सदा करत संतन प्रतिपाला।
+जय गिरिजा पति दीनदयाला, सदा करत संतन प्रतिपाला।  
 भाल चन्द्रमा सोहत नीके, कानन कुण्डल नागफनी के॥
 
 **English Translation:**
@@ -44,7 +44,7 @@ The crescent moon adorns his brow beautifully; serpent-hood earrings grace his e
 
 **Hindi (हिन्दी):**
 
-अंग गौर शिर गंग बहाये, मुण्डमाल तन क्षार लगाये।
+अंग गौर शिर गंग बहाये, मुण्डमाल तन क्षार लगाये।  
 वस्त्र खाल बाघम्बर सोहे, छवि को देख नाग मुनि मोहे॥
 
 **English Translation:**
@@ -58,7 +58,7 @@ Clad in a tiger skin that shines with splendor — beholding his beauty, even se
 
 **Hindi (हिन्दी):**
 
-मैना मातु की हवै दुलारी, बाम अंग सोहत छवि न्यारी।
+मैना मातु की हवै दुलारी, बाम अंग सोहत छवि न्यारी।  
 कर त्रिशूल सोहत छवि भारी, करत सदा शत्रुन क्षयकारी॥
 
 **English Translation:**
@@ -72,7 +72,7 @@ The trident in his hand radiates a mighty splendor, ever bringing destruction up
 
 **Hindi (हिन्दी):**
 
-नन्दी गणेश सोहैं तहँ कैसे, सागर मध्य कमल हैं जैसे।
+नन्दी गणेश सोहैं तहँ कैसे, सागर मध्य कमल हैं जैसे।  
 कार्तिक श्याम और गणराऊ, या छवि को कहि जात न काऊ॥
 
 **English Translation:**
@@ -86,7 +86,7 @@ With Kartikeya, the dark-hued one, and the lord of the Ganas — who could ever 
 
 **Hindi (हिन्दी):**
 
-देवन जबहीं जाय पुकारा, तबहीं दुख प्रभु आप निवारा।
+देवन जबहीं जाय पुकारा, तबहीं दुख प्रभु आप निवारा।  
 किया उपद्रव तारक भारी, देवन सब मिलि तुमहिं जुहारी॥
 
 **English Translation:**
@@ -100,7 +100,7 @@ When the demon Taraka wreaked great havoc, all the gods united came to bow befor
 
 **Hindi (हिन्दी):**
 
-तुरत षडानन आप पठायउ, लवनिमेष महँ मारि गिरायउ।
+तुरत षडानन आप पठायउ, लवनिमेष महँ मारि गिरायउ।  
 आप जलन्धर असुर संहारा, सुयश तुम्हार विदित संसारा॥
 
 **English Translation:**
@@ -114,7 +114,7 @@ You yourself destroyed the demon Jalandhara — your glorious fame is known thro
 
 **Hindi (हिन्दी):**
 
-त्रिपुरासुर सन युद्ध मचाई, सबहिं कृपा कर लीन बचाई।
+त्रिपुरासुर सन युद्ध मचाई, सबहिं कृपा कर लीन बचाई।  
 किया तपहिं भागीरथ भारी, पुरब प्रतिज्ञा तासु पुरारी॥
 
 **English Translation:**
@@ -128,7 +128,7 @@ Bhagiratha performed great austerities, and you, O destroyer of cities, fulfille
 
 **Hindi (हिन्दी):**
 
-दानिन महँ तुम समतुल्य कहाँ, अद्भुत लीला तुम्हारी जहाँ।
+दानिन महँ तुम समतुल्य कहाँ, अद्भुत लीला तुम्हारी जहाँ।  
 करि कृपा जन की जो सुनहू, ताको दुख निकट नहिं अवहू॥
 
 **English Translation:**
@@ -142,7 +142,7 @@ Those whose prayers you hear with grace — sorrow never comes near them.
 
 **Hindi (हिन्दी):**
 
-तुम्हरे दरस परस सुख होई, तुम्हरे पूजे सब सुख पाई।
+तुम्हरे दरस परस सुख होई, तुम्हरे पूजे सब सुख पाई।  
 तुम सबके हृदयन में बसहू, विषम शूल कालहिं तुम नसहू॥
 
 **English Translation:**
@@ -156,7 +156,7 @@ You dwell within the hearts of all, and you destroy the dreadful pain of death i
 
 **Hindi (हिन्दी):**
 
-तुम्हरो नाम जपत सुख होई, अघ विदारन सुजस तिहारो।
+तुम्हरो नाम जपत सुख होई, अघ विदारन सुजस तिहारो।  
 सब पातक नासहिं नर तेरो, जे तव चरन सरन निज हेरो॥
 
 **English Translation:**
@@ -170,7 +170,7 @@ All transgressions are annihilated for those who take refuge at your feet as the
 
 **Hindi (हिन्दी):**
 
-केहि विधि स्तुति करौं महादेवा, कहत सिद्ध मुनि असुर सुर सेवा।
+केहि विधि स्तुति करौं महादेवा, कहत सिद्ध मुनि असुर सुर सेवा।  
 शिव सिव सिव सदा उचरहीं, सकल मनोरथ पूरन करहीं॥
 
 **English Translation:**
@@ -184,7 +184,7 @@ Those who ceaselessly chant "Shiva, Shiva, Shiva" — all their heart's desires 
 
 **Hindi (हिन्दी):**
 
-कामी क्रोधी लोभी पापी, जे तव सरन पड़े प्रभु आपी।
+कामी क्रोधी लोभी पापी, जे तव सरन पड़े प्रभु आपी।  
 ते सब उद्धरि गए संसारा, एहि विधि सब जग जान तिहारा॥
 
 **English Translation:**
@@ -198,7 +198,7 @@ they are all delivered across this world. In this way, the whole world knows you
 
 **Hindi (हिन्दी):**
 
-धूप दीप नैवेद्य चढ़ावें, शंकर सम्मुख पाठ सुनावें।
+धूप दीप नैवेद्य चढ़ावें, शंकर सम्मुख पाठ सुनावें।  
 जन्म जन्म के पाप नसावें, अन्त धाम शिवपुर में पावें॥
 
 **English Translation:**
@@ -212,7 +212,7 @@ the sins of countless lifetimes are destroyed, and in the end they attain the ab
 
 **Hindi (हिन्दी):**
 
-तुम अतर्क्य अगोचर देवा, तुम्हरे भजन करें सब मेवा।
+तुम अतर्क्य अगोचर देवा, तुम्हरे भजन करें सब मेवा।  
 नित नेमी ज्ञानी गुण गावें, रोगन ते सदा बचि जावें॥
 
 **English Translation:**
@@ -226,7 +226,7 @@ Those disciplined souls and the wise who sing your virtues are ever protected fr
 
 **Hindi (हिन्दी):**
 
-चन्द्रमुखी पद्मासन ध्यावें, शंकर जी को नित पूजावें।
+चन्द्रमुखी पद्मासन ध्यावें, शंकर जी को नित पूजावें।  
 काशी में प्रभु मृत्यु जो पावें, शिवपुर ताको आवागमन मिटावें॥
 
 **English Translation:**
@@ -240,7 +240,7 @@ those who meet death at Kashi in the Lord's presence, for them Shivapura ends th
 
 **Hindi (हिन्दी):**
 
-अपने दासन को तुम तारो, जन की विपति हरो त्रिपुरारी।
+अपने दासन को तुम तारो, जन की विपति हरो त्रिपुरारी।  
 सूखे को सागर जल दीजे, दीन दयालु करुणा कीजे॥
 
 **English Translation:**
@@ -254,7 +254,7 @@ Give the ocean's water to the parched; O compassionate one, bestow your mercy.
 
 **Hindi (हिन्दी):**
 
-गुणगावत मुनि चारिउ वेदा, शिव की महिमा कही न जाये।
+गुणगावत मुनि चारिउ वेदा, शिव की महिमा कही न जाये।  
 शिव प्रभु की कला अपारा, केहि विधि करें तिहार विचारा॥
 
 **English Translation:**
@@ -268,7 +268,7 @@ Boundless are the arts and powers of Lord Shiva; by what means could one fully c
 
 **Hindi (हिन्दी):**
 
-शिव शम्भु की महिमा भारी, रवि शशि पायन आरत हारी।
+शिव शम्भु की महिमा भारी, रवि शशि पायन आरत हारी।  
 ग्रह नक्षत्र सब आज्ञाकारी, विश्वम्भर की कृपा तिहारी॥
 
 **English Translation:**
@@ -282,7 +282,7 @@ All planets and stars obey his command — the grace of the sustainer of the uni
 
 **Hindi (हिन्दी):**
 
-कामदेव को तुम जारे, ताके बाद पुनह जिवारे।
+कामदेव को तुम जारे, ताके बाद पुनह जिवारे।  
 सती जो रूठी तुमसे भारी, ताहू को सत सम्मति सारी॥
 
 **English Translation:**
@@ -296,7 +296,7 @@ When Sati was deeply angered with you, even her you guided back to righteous und
 
 **Hindi (हिन्दी):**
 
-नन्दी भृंगी बिन रहि न जाये, सदा ध्यान में तुम्हें लगाये।
+नन्दी भृंगी बिन रहि न जाये, सदा ध्यान में तुम्हें लगाये।  
 गण किन्नर हैं तुम्हरे सेवा, करत सदा रहते शिव देवा॥
 
 **English Translation:**
@@ -310,7 +310,7 @@ Ganas and Kinnaras are in your service, always attending to Lord Shiva.
 
 **Hindi (हिन्दी):**
 
-कहते अयोध्यादास तिहारी, सुनि शम्भो कर कृपा हमारी।
+कहते अयोध्यादास तिहारी, सुनि शम्भो कर कृपा हमारी।  
 रीझि है तू देवन हितकारी, जन सुख दायक सब दुख हारी॥
 
 **English Translation:**
@@ -324,7 +324,7 @@ Be pleased, O benefactor of the gods, giver of joy to devotees and remover of al
 
 **Hindi (हिन्दी):**
 
-शम्भु चरन में जो शिर नावें, विनय करें सो सुख फल पावें।
+शम्भु चरन में जो शिर नावें, विनय करें सो सुख फल पावें।  
 कोटि कोटि ब्रह्माण्ड बनावें, कोटि काल प्रलयन मिटावें॥
 
 **English Translation:**
@@ -338,7 +338,7 @@ He creates millions upon millions of universes and in countless ages dissolves t
 
 **Hindi (हिन्दी):**
 
-विषय वासना सब नसि जाई, जो शिव चालीसा निज गाई।
+विषय वासना सब नसि जाई, जो शिव चालीसा निज गाई।  
 निर्भय ताहि कदे भय नाहीं, सब सुख सम्पति पावहि ताहीं॥
 
 **English Translation:**
@@ -352,7 +352,7 @@ Fearless they become — never again shall fear touch them — and they attain a
 
 **Hindi (हिन्दी):**
 
-गौरा ध्यान धरे जो मन लाई, ताको साधन सिद्धि सुहाई।
+गौरा ध्यान धरे जो मन लाई, ताको साधन सिद्धि सुहाई।  
 संतति सम्पति सुख सब पावें, शिव चरनन में मन अति लावें॥
 
 **English Translation:**
@@ -366,7 +366,7 @@ They attain children, wealth, and every happiness — their mind deeply devoted 
 
 **Hindi (हिन्दी):**
 
-यह शिव चालीसा जो गावे, जन मन वांछित फल सो पावे।
+यह शिव चालीसा जो गावे, जन मन वांछित फल सो पावे।  
 नर हो या नारी शिव ध्यावे, सुखद मुक्ति शम्भु तब पावे॥
 
 **English Translation:**
@@ -380,7 +380,7 @@ Whether man or woman, those who meditate on Shiva then receive blissful liberati
 
 **Hindi (हिन्दी):**
 
-प्रेम सहित जो शिव गुण गावें, मन वांछित फल शीघ्र ही पावें।
+प्रेम सहित जो शिव गुण गावें, मन वांछित फल शीघ्र ही पावें।  
 बारहमास सितउ दिन रातू, शम्भु ध्यान करो मन के साथू॥
 
 **English Translation:**
@@ -394,7 +394,7 @@ Throughout all twelve months, day and night through the cold, meditate on Shambh
 
 **Hindi (हिन्दी):**
 
-ब्रह्मा विष्णु सदा शिव ध्यावें, भोलेनाथ के नाम सुनावें।
+ब्रह्मा विष्णु सदा शिव ध्यावें, भोलेनाथ के नाम सुनावें।  
 वेद पुराण की वाणी बोलें, शंकर की महिमा मन डोलें॥
 
 **English Translation:**
@@ -408,7 +408,7 @@ They speak the words of the Vedas and Puranas, their hearts swaying with the glo
 
 **Hindi (हिन्दी):**
 
-तीनों लोक से न्यारे शम्भू, ब्रह्मा विष्णु महेश स्वयम्भू।
+तीनों लोक से न्यारे शम्भू, ब्रह्मा विष्णु महेश स्वयम्भू।  
 सकल सृष्टि तुम्हीं ने बनाई, रचना तुम्हरी कही न जाई॥
 
 **English Translation:**
@@ -422,7 +422,7 @@ You alone have created the entire creation; your handiwork is beyond description
 
 **Hindi (हिन्दी):**
 
-जटा में गंगा धार बहाये, त्रिपुण्ड भाल पे शोभित साजे।
+जटा में गंगा धार बहाये, त्रिपुण्ड भाल पे शोभित साजे।  
 हर हर शम्भू सब जन बोलें, अमृत वाणी मुख से बोलें॥
 
 **English Translation:**
@@ -436,7 +436,7 @@ All people chant "Hara, Hara, Shambhu!" — words of nectar flowing from their l
 
 **Hindi (हिन्दी):**
 
-विषपान किया जग हितकारी, नीलकण्ठ नाम तब धारी।
+विषपान किया जग हितकारी, नीलकण्ठ नाम तब धारी।  
 समुद्र मन्थन में अमृत पाये, सुरन को अमृत तुम पिलाये॥
 
 **English Translation:**
@@ -450,7 +450,7 @@ When nectar arose from the churning of the ocean, you gave it to the gods to dri
 
 **Hindi (हिन्दी):**
 
-अर्धनारीश्वर रूप निरालाँ, जिसमें शक्ति और शिव का मेला।
+अर्धनारीश्वर रूप निरालाँ, जिसमें शक्ति और शिव का मेला।  
 रौद्र रूप में जग भय खाये, ताण्डव नृत्य सदा मन भाये॥
 
 **English Translation:**
@@ -464,7 +464,7 @@ In your fierce form the world trembles with fear, yet your Tandava dance ever ca
 
 **Hindi (हिन्दी):**
 
-डमरू बजाये नाद सुनाये, शिव तांडव से सृष्टि हिलाये।
+डमरू बजाये नाद सुनाये, शिव तांडव से सृष्टि हिलाये।  
 गिरिजा संग विहार करें जब, सुख शान्ति बरसे सब तब॥
 
 **English Translation:**
@@ -478,7 +478,7 @@ When you wander joyfully with Girija, then bliss and peace rain down upon all.
 
 **Hindi (हिन्दी):**
 
-सोमवार को तुम्हें पुजारें, जल अभिषेक शिवलिंग सँवारें।
+सोमवार को तुम्हें पुजारें, जल अभिषेक शिवलिंग सँवारें।  
 बेलपत्र फूल चन्दन सोहे, भक्त तुम्हारा दर्शन चोहे॥
 
 **English Translation:**
@@ -492,7 +492,7 @@ Bel leaves, flowers, and sandalwood paste shine there — your devotees yearn fo
 
 **Hindi (हिन्दी):**
 
-बारह ज्योतिर्लिंग जग माहीं, जहाँ जहाँ प्रभु तुम विराजाहीं।
+बारह ज्योतिर्लिंग जग माहीं, जहाँ जहाँ प्रभु तुम विराजाहीं।  
 काशी काँची अवन्तिका सोहे, महाकाल दरबार न मोहे॥
 
 **English Translation:**
@@ -506,7 +506,7 @@ Kashi, Kanchi, and Avantika gleam — who is not enchanted by the court of Mahak
 
 **Hindi (हिन्दी):**
 
-शिवरात्रि को जागे जो कोई, अन्न दान पुण्य फल होई।
+शिवरात्रि को जागे जो कोई, अन्न दान पुण्य फल होई।  
 रुद्राभिषेक जो नर करि जाई, जनम जनम की बाधा मिटि जाई॥
 
 **English Translation:**
@@ -520,7 +520,7 @@ The one who performs the Rudrabhisheka — the obstacles of birth after birth ar
 
 **Hindi (हिन्दी):**
 
-पञ्चाक्षर मन्त्र जो जापें, शिव कृपा तब शीघ्र ही व्यापें।
+पञ्चाक्षर मन्त्र जो जापें, शिव कृपा तब शीघ्र ही व्यापें।  
 ओम नमः शिवाय उचारें, भव बंधन के बन्ध निवारें॥
 
 **English Translation:**
@@ -534,7 +534,7 @@ Uttering "Om Namah Shivaya," they break free from the bonds of worldly existence
 
 **Hindi (हिन्दी):**
 
-सन्तन के तुम सदा सहाई, भक्ति मार्ग में राह दिखाई।
+सन्तन के तुम सदा सहाई, भक्ति मार्ग में राह दिखाई।  
 दीन दयालु कृपा निधि शम्भू, ब्रह्मा विष्णु सदा बन्दे शम्भू॥
 
 **English Translation:**
@@ -548,7 +548,7 @@ Compassionate to the lowly, a treasury of mercy is Shambhu — Brahma and Vishnu
 
 **Hindi (हिन्दी):**
 
-शरणागत की रक्षा करिये, सकल विपत्ति को दूर हरिये।
+शरणागत की रक्षा करिये, सकल विपत्ति को दूर हरिये।  
 मन से ध्यान शम्भु का लावें, सकल मनोरथ पूरन पावें॥
 
 **English Translation:**
@@ -562,7 +562,7 @@ Those who fix their mind in meditation upon Shambhu attain the fulfillment of al
 
 **Hindi (हिन्दी):**
 
-जो यह पाठ करे मन लाई, ताकी शम्भू सुनें सुनाई।
+जो यह पाठ करे मन लाई, ताकी शम्भू सुनें सुनाई।  
 मन क्रम वचन ध्यान जो धरही, उसके ताप शम्भू सब हरही॥
 
 **English Translation:**
@@ -576,7 +576,7 @@ Those who hold him in thought, deed, and word — Shambhu removes all their affl
 
 **Hindi (हिन्दी):**
 
-राम राम रट सदा सुहाई, शम्भु शम्भु मुख मंगल गाई।
+राम राम रट सदा सुहाई, शम्भु शम्भु मुख मंगल गाई।  
 सकल कामना हृदय की पूरें, दूर करे सब दुख अति दूरें॥
 
 **English Translation:**
@@ -590,7 +590,7 @@ All the desires of the heart are fulfilled, and every sorrow is driven far, far 
 
 **Hindi (हिन्दी):**
 
-शिव चालीसा जो नित गावे, सब सुख भोग मुक्ति फल पावे।
+शिव चालीसा जो नित गावे, सब सुख भोग मुक्ति फल पावे।  
 अयोध्यादास कहत शम्भू की, जय जय जय शिव शम्भू की॥
 
 **English Translation:**
@@ -606,7 +606,7 @@ Ayodhyadas proclaims the glory of Shambhu — victory, victory, victory to Shiva
 
 **Hindi (हिन्दी):**
 
-शिव चालीसा पाठ कर, शम्भू पद नित ध्याय।
+शिव चालीसा पाठ कर, शम्भू पद नित ध्याय।  
 अयोध्यादास प्रभू कहत, सदा अनन्द मनाय॥
 
 **English Translation:**
