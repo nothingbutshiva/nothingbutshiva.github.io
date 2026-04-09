@@ -23,7 +23,7 @@
   <meta name="twitter:description" content="Discover sacred literature inspired by Lord Shiva. Read books on Hindu spirituality, mythology, and devotion online.">
 
   <!-- Favicon (Om symbol) -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🕉️</text></svg>">
+  <link rel="icon" href="assets/images/om-icon.svg" type="image/svg+xml">
 
   <!-- Styles -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
@@ -71,13 +71,16 @@
   <nav class="site-nav">
     <div class="nav-inner">
       <a href="/" class="nav-brand">
-        <span class="brand-icon">🕉️</span>
+        <img src="assets/images/om-icon.svg" class="brand-om" width="28" height="28" alt="Om">
         Nothing But Shiva
       </a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
       <ul class="nav-links">
         <li><a href="/" class="active">Home</a></li>
         <li><a href="#books">Books</a></li>
+        <li><a href="#stotras">Stotras</a></li>
         <li><a href="articles/">Articles</a></li>
         <li><a href="#about">About</a></li>
         <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
@@ -87,7 +90,7 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <span class="hero-symbol">🕉️</span>
+    <img src="assets/images/om-icon.svg" class="hero-om-svg" width="80" height="80" alt="Om">
     <h1>Nothing But <span class="accent">Shiva</span></h1>
     <p class="tagline">Explore the depths of Hindu spirituality, mythology, and eternal wisdom through sacred literature.</p>
     <p class="hero-sanskrit">ॐ नमः शिवाय</p>
@@ -144,6 +147,143 @@
     <div id="book-catalog" class="book-grid" data-catalog="books/catalog.json">
       <div class="spinner"></div>
     </div>
+    <div style="margin-top:2rem;">
+      <a href="pages/shiv-puran-slokas.html" class="article-card fade-in">
+        <div class="article-meta">📖 Book</div>
+        <h3>Shiv Puran — Selected Slokas</h3>
+        <p>A curated collection of 28 important slokas from the Shiv Puran across 5 chapters — with Sanskrit text, Hindi meaning, and English translation.</p>
+        <span class="read-link">Read book →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Stotras Section -->
+  <section id="stotras" class="section">
+    <h2 class="section-title">Sacred Stotras &amp; Hymns</h2>
+    <p class="section-subtitle">Ancient Sanskrit prayers and hymns dedicated to Lord Shiva — with Hindi and English translations.</p>
+    <div class="divider"><span class="divider-icon">✦</span></div>
+    <div class="stotras-grid">
+      <a href="pages/shiva-tandava-stotram.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🔱</span>
+        <h3>Shiva Tandava Stotram</h3>
+        <p>शिव तांडव स्तोत्रम्</p>
+        <span class="stotra-by">By Ravana</span>
+      </a>
+      <a href="pages/lingashtakam.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🙏</span>
+        <h3>Lingashtakam</h3>
+        <p>लिङ्गाष्टकम्</p>
+        <span class="stotra-by">8 Verses</span>
+      </a>
+      <a href="pages/shiva-panchakshari-stotram.html" class="stotra-card fade-in">
+        <span class="stotra-icon">✨</span>
+        <h3>Panchakshari Stotram</h3>
+        <p>शिव पञ्चाक्षरी स्तोत्रम्</p>
+        <span class="stotra-by">By Adi Shankaracharya</span>
+      </a>
+      <a href="pages/rudrashtakam.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🙏</span>
+        <h3>Rudrashtakam</h3>
+        <p>रुद्राष्टकम्</p>
+        <span class="stotra-by">By Goswami Tulsidas</span>
+      </a>
+      <a href="pages/shiva-chalisa.html" class="stotra-card fade-in">
+        <span class="stotra-icon">📿</span>
+        <h3>Shiva Chalisa</h3>
+        <p>शिव चालीसा</p>
+        <span class="stotra-by">40 Verses</span>
+      </a>
+      <a href="pages/shiva-aarti.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🪔</span>
+        <h3>Shiva Aarti</h3>
+        <p>ॐ जय शिव ओमकारा</p>
+        <span class="stotra-by">Traditional</span>
+      </a>
+      <a href="pages/bilvashtakam.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🍃</span>
+        <h3>Bilvashtakam</h3>
+        <p>बिल्वाष्टकम्</p>
+        <span class="stotra-by">8 Verses</span>
+      </a>
+      <a href="pages/shiva-mahimna-stotram.html" class="stotra-card fade-in">
+        <span class="stotra-icon">⭐</span>
+        <h3>Shiva Mahimna Stotram</h3>
+        <p>शिवमहिम्नस्तोत्रम्</p>
+        <span class="stotra-by">By Pushpadanta</span>
+      </a>
+      <a href="pages/dwadash-jyotirlinga-stotram.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🔥</span>
+        <h3>Dwadash Jyotirlinga Stotram</h3>
+        <p>द्वादश ज्योतिर्लिंग स्तोत्रम्</p>
+        <span class="stotra-by">12 Jyotirlingas</span>
+      </a>
+      <a href="pages/maha-mrityunjaya-mantra.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🙏</span>
+        <h3>Maha Mrityunjaya Mantra</h3>
+        <p>महा मृत्युंजय मंत्र</p>
+        <span class="stotra-by">From Rig Veda</span>
+      </a>
+      <a href="pages/shiva-kavacham.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🛡️</span>
+        <h3>Shiva Kavacham</h3>
+        <p>शिव कवचम्</p>
+        <span class="stotra-by">Divine Armor</span>
+      </a>
+      <a href="pages/vedasara-shiva-stotram.html" class="stotra-card fade-in">
+        <span class="stotra-icon">📜</span>
+        <h3>Vedasara Shiva Stotram</h3>
+        <p>वेदसार शिव स्तोत्रम्</p>
+        <span class="stotra-by">Essence of Vedas</span>
+      </a>
+      <a href="pages/shivashtakam.html" class="stotra-card fade-in">
+        <span class="stotra-icon">✨</span>
+        <h3>Shivashtakam</h3>
+        <p>शिवाष्टकम्</p>
+        <span class="stotra-by">8 Verses</span>
+      </a>
+      <a href="pages/chandrashekharashtakam.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🌙</span>
+        <h3>Chandrashekharashtakam</h3>
+        <p>चन्द्रशेखराष्टकम्</p>
+        <span class="stotra-by">By Markandeya</span>
+      </a>
+      <a href="pages/daridraya-dahana-stotram.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🔥</span>
+        <h3>Daridraya Dahana Stotram</h3>
+        <p>दारिद्र्य दहन स्तोत्रम्</p>
+        <span class="stotra-by">Poverty Destroyer</span>
+      </a>
+      <a href="pages/kalabhairava-ashtakam.html" class="stotra-card fade-in">
+        <span class="stotra-icon">⚡</span>
+        <h3>Kalabhairava Ashtakam</h3>
+        <p>कालभैरवाष्टकम्</p>
+        <span class="stotra-by">By Adi Shankaracharya</span>
+      </a>
+      <a href="pages/ardhanarishvara-stotram.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🙏</span>
+        <h3>Ardhanarishvara Stotram</h3>
+        <p>अर्धनारीश्वर स्तोत्रम्</p>
+        <span class="stotra-by">By Adi Shankaracharya</span>
+      </a>
+      <a href="pages/shiva-aparadh-kshamapana-stotram.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🙏</span>
+        <h3>Shiva Aparadh Kshamapana</h3>
+        <p>शिव अपराधक्षमापन स्तोत्रम्</p>
+        <span class="stotra-by">By Adi Shankaracharya</span>
+      </a>
+      <a href="pages/shiva-manasa-puja.html" class="stotra-card fade-in">
+        <span class="stotra-icon">🧘</span>
+        <h3>Shiva Manasa Puja</h3>
+        <p>शिव मानस पूजा</p>
+        <span class="stotra-by">By Adi Shankaracharya</span>
+      </a>
+      <a href="pages/shiva-ashtottara-shatanamavali.html" class="stotra-card fade-in">
+        <span class="stotra-icon">📿</span>
+        <h3>108 Names of Shiva</h3>
+        <p>शिव अष्टोत्तरशतनामावलि</p>
+        <span class="stotra-by">108 Sacred Names</span>
+      </a>
+    </div>
   </section>
 
   <!-- Articles Section -->
@@ -194,7 +334,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="https://github.com/nothingbutshiva" target="_blank" rel="noopener">GitHub</a></li>
     </ul>
-    <p class="footer-brand">🕉️ Nothing But Shiva</p>
+    <p class="footer-brand"><svg class="footer-om" viewBox="0 0 64 64" width="18" height="18" fill="var(--brand-accent)" aria-hidden="true"><path d="M28.5 14c-1.8 0-3.4.7-4.6 1.9-1.2 1.2-1.9 2.8-1.9 4.6 0 2.5 1.2 4.6 3.2 6.1-2.8 1.4-4.7 4.2-4.7 7.4 0 3.1 1.7 5.8 4.2 7.2l1.8-2.8c-1.6-.9-2.6-2.6-2.6-4.4 0-2.9 2.4-5.3 5.3-5.3h1.3c.7 2.1 2.6 3.6 4.9 3.6 2.8 0 5.1-2.3 5.1-5.1s-2.3-5.1-5.1-5.1c-1.5 0-2.8.6-3.8 1.6-.3-.1-.5-.1-.8-.1-.1-1.2-.5-2.2-1.1-3.1.6-.8.9-1.8.9-2.9 0-1.1-.4-2.1-1.1-2.8-.7-.8-1.7-1.4-2.8-1.4l.2-.1zm7 10.3c1.2 0 2.1 1 2.1 2.1 0 1.2-1 2.1-2.1 2.1-1.2 0-2.1-1-2.1-2.1 0-1.2 1-2.1 2.1-2.1zM44.8 34c-.4 0-.8.1-1.2.2-1.1.4-2 1.2-2.5 2.2l2.8 1.4c.2-.4.6-.6 1-.8.1 0 .2 0 .3 0 .8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5c-.5 0-.9-.2-1.2-.6l-2.4 2c.9 1.1 2.2 1.8 3.6 1.8 2.6 0 4.8-2.1 4.8-4.8-.1-2.5-2.2-4.5-4.8-4.5l.6.1zM32 44.5c-1 0-2 .2-2.9.7l1.5 2.8c.4-.2.9-.3 1.4-.3 1.7 0 3.1 1.4 3.1 3.1 0 .5-.1.9-.3 1.3l2.8 1.5c.5-.9.7-1.8.7-2.8 0-3.5-2.8-6.3-6.3-6.3z"/></svg> Nothing But Shiva</p>
     <p class="copyright">&copy; 2026 Nothing But Shiva. All rights reserved.</p>
   </footer>
 

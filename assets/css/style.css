@@ -58,6 +58,14 @@
   --hero-gradient: linear-gradient(135deg, #1A237E 0%, #0D0D1A 50%, #311B92 100%);
 }
 
+/* Override Pico background for our brand */
+html[data-theme="light"] {
+  background-color: var(--brand-light);
+}
+html[data-theme="dark"] {
+  background-color: var(--brand-light);
+}
+
 /* ---------- Skip Link (Accessibility) ---------- */
 .skip-link {
   position: absolute;
@@ -184,8 +192,10 @@ nav.site-nav .nav-brand {
   gap: 0.5rem;
 }
 
-nav.site-nav .nav-brand .brand-icon {
-  font-size: 1.4rem;
+nav.site-nav .nav-brand .brand-om {
+  flex-shrink: 0;
+  height: 28px;
+  width: 28px;
 }
 
 [data-theme="dark"] nav.site-nav .nav-brand {
@@ -195,37 +205,47 @@ nav.site-nav .nav-brand .brand-icon {
 nav.site-nav .nav-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.site-nav .nav-links li {
   margin: 0;
   padding: 0;
 }
 
 nav.site-nav .nav-links a {
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   font-weight: 500;
   color: var(--text-secondary);
   position: relative;
   transition: color var(--transition-speed);
   letter-spacing: 0.02em;
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--radius-sm);
 }
 
 nav.site-nav .nav-links a:hover,
 nav.site-nav .nav-links a.active {
   color: var(--brand-primary);
+  background: rgba(63, 81, 181, 0.06);
 }
 
 [data-theme="dark"] nav.site-nav .nav-links a:hover,
 [data-theme="dark"] nav.site-nav .nav-links a.active {
   color: var(--brand-accent);
+  background: rgba(255, 179, 0, 0.08);
 }
 
 nav.site-nav .nav-links a::after {
   content: '';
   position: absolute;
-  bottom: -4px;
-  left: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 0;
   height: 2px;
   background: var(--brand-accent);
@@ -235,7 +255,7 @@ nav.site-nav .nav-links a::after {
 
 nav.site-nav .nav-links a:hover::after,
 nav.site-nav .nav-links a.active::after {
-  width: 100%;
+  width: 60%;
 }
 
 /* Theme toggle button */
@@ -260,15 +280,60 @@ nav.site-nav .nav-links a.active::after {
   transform: rotate(20deg);
 }
 
-/* Mobile nav toggle */
+/* Mobile nav toggle — CSS hamburger */
 .nav-toggle {
   display: none;
   background: none;
   border: none;
-  font-size: 1.5rem;
   cursor: pointer;
-  padding: 0.25rem;
+  padding: 0.5rem;
   color: var(--text-primary);
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+
+.nav-toggle .hamburger,
+.nav-toggle .hamburger::before,
+.nav-toggle .hamburger::after {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  position: absolute;
+  left: 8px;
+}
+
+.nav-toggle .hamburger {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-toggle .hamburger::before {
+  content: '';
+  top: -6px;
+}
+
+.nav-toggle .hamburger::after {
+  content: '';
+  top: 6px;
+}
+
+/* Animate to X when open */
+.nav-toggle[aria-expanded="true"] .hamburger {
+  background: transparent;
+}
+
+.nav-toggle[aria-expanded="true"] .hamburger::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.nav-toggle[aria-expanded="true"] .hamburger::after {
+  top: 0;
+  transform: rotate(-45deg);
 }
 
 @media (max-width: 768px) {
@@ -317,7 +382,7 @@ nav.site-nav .nav-links a.active::after {
 /* ---------- Hero Section ---------- */
 .hero {
   background: var(--hero-gradient);
-  color: var(--text-light);
+  color: #F5F5F5;
   text-align: center;
   padding: 3.5rem 2rem 3rem;
   position: relative;
@@ -341,19 +406,18 @@ nav.site-nav .nav-links a.active::after {
   100% { transform: translate(3%, -3%) scale(1.02); }
 }
 
-.hero .hero-symbol {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-  position: relative;
-  opacity: 0.7;
+.hero .hero-om-svg {
   display: block;
+  margin: 0 auto 0.5rem;
+  position: relative;
+  opacity: 0.85;
   animation: omPulse 4s ease-in-out infinite;
-  filter: drop-shadow(0 0 12px rgba(255, 179, 0, 0.4));
+  filter: drop-shadow(0 0 16px rgba(255, 224, 130, 0.5)) brightness(0) invert(1);
 }
 
 @keyframes omPulse {
-  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 12px rgba(255, 179, 0, 0.4)); }
-  50% { transform: scale(1.08); filter: drop-shadow(0 0 24px rgba(255, 179, 0, 0.6)); }
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 16px rgba(255, 224, 130, 0.5)) brightness(0) invert(1); }
+  50% { transform: scale(1.08); filter: drop-shadow(0 0 28px rgba(255, 224, 130, 0.7)) brightness(0) invert(1); }
 }
 
 .hero h1 {
@@ -479,14 +543,14 @@ nav.site-nav .nav-links a.active::after {
 }
 
 .book-card {
-  background: var(--pico-card-background-color, #fff);
+  background: var(--brand-surface);
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--card-shadow);
   transition: all var(--transition-speed) ease;
   display: flex;
   flex-direction: column;
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 [data-theme="dark"] .book-card {
@@ -684,17 +748,17 @@ nav.site-nav .nav-links a.active::after {
 }
 
 .article-card {
-  background: var(--pico-card-background-color, #fff);
+  background: var(--brand-surface);
   border-radius: var(--radius);
   padding: 1.75rem;
   box-shadow: var(--card-shadow);
   transition: all var(--transition-speed);
   text-decoration: none;
-  color: inherit;
+  color: var(--text-primary);
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   border-left: 3px solid var(--brand-accent);
 }
 
@@ -755,18 +819,18 @@ nav.site-nav .nav-links a.active::after {
 }
 
 .content-card {
-  background: var(--pico-card-background-color, #fff);
+  background: var(--brand-surface);
   border-radius: var(--radius);
   padding: 2rem;
   box-shadow: var(--card-shadow);
   transition: all var(--transition-speed);
   text-decoration: none;
-  color: inherit;
+  color: var(--text-primary);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.75rem;
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .content-card:hover {
@@ -788,6 +852,78 @@ nav.site-nav .nav-links a.active::after {
   margin: 0;
   color: var(--text-secondary);
   font-size: 0.95rem;
+}
+
+/* ---------- Stotras Grid ---------- */
+.stotras-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.stotra-card {
+  background: var(--brand-surface);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--card-shadow);
+  transition: all var(--transition-speed);
+  text-decoration: none;
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: 3px solid var(--brand-primary);
+}
+
+[data-theme="dark"] .stotra-card {
+  border-color: rgba(255, 255, 255, 0.06);
+  border-top-color: var(--brand-accent);
+}
+
+.stotra-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--card-shadow-hover);
+  border-top-color: var(--brand-accent);
+}
+
+.stotra-card .stotra-icon {
+  font-size: 1.5rem;
+}
+
+.stotra-card h3 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.stotra-card p {
+  margin: 0;
+  color: var(--brand-primary);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+[data-theme="dark"] .stotra-card p {
+  color: var(--brand-accent-light);
+}
+
+.stotra-card .stotra-by {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 600px) {
+  .stotras-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .stotra-card {
+    padding: 1rem;
+  }
 }
 
 /* ---------- Footer ---------- */
