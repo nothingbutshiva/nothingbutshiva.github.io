@@ -112,7 +112,7 @@
           }
 
           html +=
-            '<article class="book-card fade-in" style="animation-delay:' + (i * 0.1) + 's">' +
+            '<article class="book-card" style="animation-delay:' + (i * 0.1) + 's">' +
             '<div class="cover-wrapper">' + coverHtml + '</div>' +
             '<div class="card-body">' +
             '<h3>' + escapeHtml(book.title) + '</h3>' +
