@@ -1,27 +1,37 @@
 /* =============================================
-   Nothing But Shiva — PDF Reader (PDF.js)
+   Nothing But Shiva — Book Reader (PDF.js)
+   Two-page spread with page-turn animations
    ============================================= */
 
 (function () {
   'use strict';
 
-  var PDFJS_CDN = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379';
+  var PDFJS_CDN = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174';
 
   // State
   var pdfDoc = null;
-  var currentPage = 1;
   var totalPages = 0;
-  var scale = 1.5;
+  var currentSpread = 1; // left page number (right = left + 1)
+  var baseScale = 1;
+  var userZoom = 1;
   var rendering = false;
-  var pendingPage = null;
+  var singleMode = false;
+  var isMobile = window.innerWidth <= 768;
+  var animating = false;
 
-  // DOM elements (cached after init)
-  var canvas, ctx, viewport;
-  var prevBtn, nextBtn, pageInput, pageCount;
-  var zoomInBtn, zoomOutBtn, zoomLevel;
-  var fullscreenBtn, fitWidthBtn;
+  // Page render cache
+  var pageCache = {};
+
+  // DOM
+  var canvasLeft, ctxLeft, canvasRight, ctxRight;
+  var pageLeftEl, pageRightEl, spineEl;
+  var prevBtn, nextBtn, pageInput, pageCountEl;
+  var zoomInBtn, zoomOutBtn, zoomLevelEl;
+  var fullscreenBtn, viewModeBtn;
   var loadingOverlay, progressFill, loadingText;
-  var bookTitleEl;
+  var bookTitleEl, bookViewport, bookReader, bookSpread;
+  var navPrev, navNext;
+  var pagenumLeft, pagenumRight;
 
   // ---------- URL Params ----------
   function getParams() {
@@ -32,9 +42,25 @@
     };
   }
 
+  // ---------- Determine if single-page mode ----------
+  function isSinglePage() {
+    return singleMode || isMobile;
+  }
+
+  // ---------- Calculate scale to fit pages in viewport ----------
+  function calcFitScale(pageWidth, pageHeight) {
+    var vw = bookViewport.clientWidth;
+    var vh = bookViewport.clientHeight - 20; // padding
+    var pagesShown = isSinglePage() ? 1 : 2;
+    var availWidth = (vw - 40) / pagesShown; // gap
+    var scaleW = availWidth / pageWidth;
+    var scaleH = vh / pageHeight;
+    return Math.min(scaleW, scaleH, 2.5);
+  }
+
   // ---------- Load PDF ----------
   function loadPDF(url) {
-    showLoading('Loading PDF…');
+    showLoading('Loading PDF\u2026');
 
     var loadingTask = pdfjsLib.getDocument({
       url: url,
@@ -52,11 +78,17 @@
     loadingTask.promise.then(function (pdf) {
       pdfDoc = pdf;
       totalPages = pdf.numPages;
-      pageCount.textContent = totalPages;
+      pageCountEl.textContent = totalPages;
       pageInput.max = totalPages;
-      hideLoading();
-      updateButtons();
-      renderPage(currentPage);
+
+      // Calculate initial scale from first page
+      pdf.getPage(1).then(function (page) {
+        var vp = page.getViewport({ scale: 1 });
+        baseScale = calcFitScale(vp.width, vp.height);
+        hideLoading();
+        renderSpread(1);
+        updateUI();
+      });
     }).catch(function (err) {
       console.error('PDF load error:', err);
       hideLoading();
@@ -64,15 +96,19 @@
     });
   }
 
-  // ---------- Render Page ----------
-  function renderPage(num) {
-    if (rendering) {
-      pendingPage = num;
+  // ---------- Render a single page to a canvas ----------
+  function renderPageToCanvas(pageNum, canvas, ctx, callback) {
+    if (pageNum < 1 || pageNum > totalPages) {
+      canvas.width = 0;
+      canvas.height = 0;
+      canvas.style.width = '0';
+      canvas.style.height = '0';
+      if (callback) callback();
       return;
     }
-    rendering = true;
 
-    pdfDoc.getPage(num).then(function (page) {
+    pdfDoc.getPage(pageNum).then(function (page) {
+      var scale = baseScale * userZoom;
       var vp = page.getViewport({ scale: scale });
       var dpr = window.devicePixelRatio || 1;
 
@@ -80,74 +116,192 @@
       canvas.height = vp.height * dpr;
       canvas.style.width = vp.width + 'px';
       canvas.style.height = vp.height + 'px';
+
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-      var renderContext = {
-        canvasContext: ctx,
-        viewport: vp
-      };
-
-      page.render(renderContext).promise.then(function () {
-        rendering = false;
-        if (pendingPage !== null) {
-          var p = pendingPage;
-          pendingPage = null;
-          renderPage(p);
-        }
+      page.render({ canvasContext: ctx, viewport: vp }).promise.then(function () {
+        if (callback) callback();
       });
     });
+  }
 
-    currentPage = num;
-    pageInput.value = num;
-    updateButtons();
+  // ---------- Render current spread ----------
+  function renderSpread(leftPage, direction) {
+    if (rendering || !pdfDoc) return;
+    rendering = true;
 
-    // Scroll viewport to top when changing pages
-    if (viewport) viewport.scrollTop = 0;
+    var single = isSinglePage();
+    var leftNum = single ? 0 : leftPage;
+    var rightNum = single ? leftPage : leftPage + 1;
+
+    // Clamp
+    if (!single) {
+      if (leftNum < 1) leftNum = 1;
+      if (leftNum > totalPages) leftNum = totalPages;
+      if (rightNum > totalPages) rightNum = 0;
+    } else {
+      if (rightNum > totalPages) rightNum = totalPages;
+      if (rightNum < 1) rightNum = 1;
+    }
+
+    currentSpread = single ? rightNum : leftNum;
+
+    // Trigger page turn animation
+    if (direction && !animating) {
+      animating = true;
+      var animEl = direction === 'next' ? pageRightEl : pageLeftEl;
+      var animClass = direction === 'next' ? 'turning' : 'turning-back';
+
+      // For single mode, always animate the right page
+      if (single) {
+        animEl = pageRightEl;
+        animClass = direction === 'next' ? 'turning' : 'turning-back';
+      }
+
+      animEl.classList.add(animClass);
+      setTimeout(function () {
+        animEl.classList.remove(animClass);
+        animating = false;
+      }, 450);
+    }
+
+    var done = 0;
+    var total = single ? 1 : 2;
+
+    function checkDone() {
+      done++;
+      if (done >= total) {
+        rendering = false;
+        updateUI();
+      }
+    }
+
+    // Render left page (spread mode only)
+    if (!single && leftNum >= 1) {
+      pageLeftEl.style.display = '';
+      pagenumLeft.textContent = leftNum;
+      renderPageToCanvas(leftNum, canvasLeft, ctxLeft, checkDone);
+    } else if (!single) {
+      pageLeftEl.style.display = '';
+      canvasLeft.width = 0;
+      canvasLeft.style.width = '0';
+      pagenumLeft.textContent = '';
+      checkDone();
+    } else {
+      checkDone();
+    }
+
+    // Render right page
+    if (rightNum >= 1 && rightNum <= totalPages) {
+      pagenumRight.textContent = rightNum;
+      renderPageToCanvas(rightNum, canvasRight, ctxRight, checkDone);
+    } else {
+      canvasRight.width = 0;
+      canvasRight.style.width = '0';
+      pagenumRight.textContent = '';
+      checkDone();
+    }
   }
 
   // ---------- Navigation ----------
-  function prevPage() {
-    if (currentPage <= 1) return;
-    renderPage(currentPage - 1);
+  function getDisplayPage() {
+    if (isSinglePage()) return currentSpread;
+    return currentSpread;
   }
 
-  function nextPage() {
-    if (currentPage >= totalPages) return;
-    renderPage(currentPage + 1);
+  function nextSpread() {
+    if (animating) return;
+    var step = isSinglePage() ? 1 : 2;
+    var next = currentSpread + step;
+    if (isSinglePage()) {
+      if (next > totalPages) return;
+    } else {
+      if (currentSpread + step > totalPages) return;
+    }
+    renderSpread(next, 'next');
+  }
+
+  function prevSpread() {
+    if (animating) return;
+    var step = isSinglePage() ? 1 : 2;
+    var prev = currentSpread - step;
+    if (prev < 1) return;
+    renderSpread(prev, 'prev');
   }
 
   function goToPage(num) {
     num = parseInt(num, 10);
     if (isNaN(num) || num < 1 || num > totalPages) return;
-    renderPage(num);
+    if (isSinglePage()) {
+      renderSpread(num);
+    } else {
+      // Go to the spread that contains this page
+      var leftPage = num % 2 === 1 ? num : num - 1;
+      renderSpread(leftPage);
+    }
   }
 
-  function updateButtons() {
-    if (prevBtn) prevBtn.disabled = currentPage <= 1;
-    if (nextBtn) nextBtn.disabled = currentPage >= totalPages;
-    if (zoomLevel) zoomLevel.textContent = Math.round(scale * 100) + '%';
+  function updateUI() {
+    var single = isSinglePage();
+    var step = single ? 1 : 2;
+    var displayPage = single ? currentSpread : currentSpread;
+    var displayEnd = single ? currentSpread : Math.min(currentSpread + 1, totalPages);
+
+    if (prevBtn) prevBtn.disabled = currentSpread <= 1;
+    if (nextBtn) nextBtn.disabled = (single ? currentSpread >= totalPages : currentSpread + step > totalPages);
+
+    if (pageInput) pageInput.value = displayEnd;
+    if (zoomLevelEl) zoomLevelEl.textContent = Math.round(baseScale * userZoom * 100) + '%';
+
+    // View mode button state
+    if (viewModeBtn) {
+      if (singleMode) {
+        viewModeBtn.classList.add('active');
+      } else {
+        viewModeBtn.classList.remove('active');
+      }
+    }
   }
 
   // ---------- Zoom ----------
   function zoomIn() {
-    if (scale >= 5) return;
-    scale = Math.min(5, scale + 0.25);
-    renderPage(currentPage);
+    if (userZoom >= 3) return;
+    userZoom = Math.min(3, userZoom + 0.2);
+    renderSpread(currentSpread);
   }
 
   function zoomOut() {
-    if (scale <= 0.25) return;
-    scale = Math.max(0.25, scale - 0.25);
-    renderPage(currentPage);
+    if (userZoom <= 0.4) return;
+    userZoom = Math.max(0.4, userZoom - 0.2);
+    renderSpread(currentSpread);
   }
 
-  function fitWidth() {
+  // ---------- View Mode Toggle ----------
+  function toggleViewMode() {
+    if (isMobile) return; // mobile is always single
+    singleMode = !singleMode;
+
+    if (singleMode) {
+      bookReader.classList.add('single-mode');
+      // Convert spread to single page (show right page)
+      var pageToShow = currentSpread;
+      recalcScale();
+      renderSpread(pageToShow);
+    } else {
+      bookReader.classList.remove('single-mode');
+      // Convert single to spread
+      var leftPage = currentSpread % 2 === 1 ? currentSpread : currentSpread - 1;
+      recalcScale();
+      renderSpread(leftPage);
+    }
+  }
+
+  function recalcScale() {
     if (!pdfDoc) return;
-    pdfDoc.getPage(currentPage).then(function (page) {
+    pdfDoc.getPage(1).then(function (page) {
       var vp = page.getViewport({ scale: 1 });
-      var containerWidth = viewport.clientWidth - 32; // padding
-      scale = containerWidth / vp.width;
-      renderPage(currentPage);
+      baseScale = calcFitScale(vp.width, vp.height);
+      renderSpread(currentSpread);
     });
   }
 
@@ -171,12 +325,13 @@
       case 'ArrowLeft':
       case 'ArrowUp':
         e.preventDefault();
-        prevPage();
+        prevSpread();
         break;
       case 'ArrowRight':
       case 'ArrowDown':
+      case ' ':
         e.preventDefault();
-        nextPage();
+        nextSpread();
         break;
       case '+':
       case '=':
@@ -202,11 +357,37 @@
     }
   }
 
+  // ---------- Touch/Swipe Support ----------
+  function initTouchSupport() {
+    var startX = 0;
+    var startY = 0;
+    var threshold = 50;
+
+    bookViewport.addEventListener('touchstart', function (e) {
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+    }, { passive: true });
+
+    bookViewport.addEventListener('touchend', function (e) {
+      var dx = e.changedTouches[0].clientX - startX;
+      var dy = e.changedTouches[0].clientY - startY;
+
+      // Only horizontal swipes
+      if (Math.abs(dx) > threshold && Math.abs(dx) > Math.abs(dy)) {
+        if (dx < 0) {
+          nextSpread();
+        } else {
+          prevSpread();
+        }
+      }
+    }, { passive: true });
+  }
+
   // ---------- Loading State ----------
   function showLoading(text) {
     if (!loadingOverlay) return;
     loadingOverlay.style.display = 'flex';
-    if (loadingText) loadingText.textContent = text || 'Loading…';
+    if (loadingText) loadingText.textContent = text || 'Loading\u2026';
     if (progressFill) progressFill.style.width = '0%';
   }
 
@@ -220,13 +401,17 @@
 
   function updateProgress(pct) {
     if (progressFill) progressFill.style.width = pct + '%';
-    if (loadingText) loadingText.textContent = 'Loading… ' + pct + '%';
+    if (loadingText) loadingText.textContent = 'Loading\u2026 ' + pct + '%';
   }
 
   function showError(msg) {
     var el = document.getElementById('reader-error');
     if (el) {
-      el.textContent = msg;
+      el.innerHTML = '<div style="padding-top:40vh;">' +
+        '<div style="font-size:2.5rem;margin-bottom:1rem;">&#x26A0;&#xFE0F;</div>' +
+        '<p>' + msg + '</p>' +
+        '<a href="../" style="color:var(--brand-accent);">&larr; Return home</a>' +
+        '</div>';
       el.style.display = 'block';
     }
   }
@@ -234,51 +419,72 @@
   // ---------- Init ----------
   function init() {
     // Cache DOM
-    canvas = document.getElementById('pdf-canvas');
-    ctx = canvas.getContext('2d');
-    viewport = document.querySelector('.reader-viewport');
+    canvasLeft = document.getElementById('canvas-left');
+    ctxLeft = canvasLeft.getContext('2d');
+    canvasRight = document.getElementById('canvas-right');
+    ctxRight = canvasRight.getContext('2d');
+    pageLeftEl = document.getElementById('page-left');
+    pageRightEl = document.getElementById('page-right');
+    spineEl = document.getElementById('book-spine');
+    bookViewport = document.getElementById('book-viewport');
+    bookReader = document.getElementById('book-reader');
+    bookSpread = document.getElementById('book-spread');
     prevBtn = document.getElementById('prev-page');
     nextBtn = document.getElementById('next-page');
     pageInput = document.getElementById('page-input');
-    pageCount = document.getElementById('page-count');
+    pageCountEl = document.getElementById('page-count');
     zoomInBtn = document.getElementById('zoom-in');
     zoomOutBtn = document.getElementById('zoom-out');
-    zoomLevel = document.getElementById('zoom-level');
+    zoomLevelEl = document.getElementById('zoom-level');
     fullscreenBtn = document.getElementById('fullscreen-btn');
-    fitWidthBtn = document.getElementById('fit-width-btn');
-    loadingOverlay = document.querySelector('.reader-loading');
-    progressFill = document.querySelector('.progress-fill');
-    loadingText = document.querySelector('.loading-text');
-    bookTitleEl = document.querySelector('.book-title');
+    viewModeBtn = document.getElementById('view-mode');
+    loadingOverlay = document.getElementById('loading-overlay');
+    progressFill = document.getElementById('progress-fill');
+    loadingText = document.getElementById('loading-text');
+    bookTitleEl = document.getElementById('book-title-el');
+    navPrev = document.getElementById('nav-prev');
+    navNext = document.getElementById('nav-next');
+    pagenumLeft = document.getElementById('pagenum-left');
+    pagenumRight = document.getElementById('pagenum-right');
 
     // Get URL params
     var params = getParams();
     if (!params.file) {
       showError('No PDF file specified. Use ?file=path/to/file.pdf');
+      if (loadingOverlay) loadingOverlay.style.display = 'none';
       return;
     }
 
     // Set title
     if (params.title && bookTitleEl) {
       bookTitleEl.textContent = params.title;
-      document.title = params.title + ' — Nothing But Shiva Reader';
+      document.title = params.title + ' \u2014 Nothing But Shiva Reader';
+    }
+
+    // Check mobile
+    isMobile = window.innerWidth <= 768;
+    if (isMobile) {
+      bookReader.classList.add('single-mode');
     }
 
     // Configure PDF.js worker
-    pdfjsLib.GlobalWorkerOptions.workerSrc = PDFJS_CDN + '/pdf.worker.min.mjs';
+    pdfjsLib.GlobalWorkerOptions.workerSrc = PDFJS_CDN + '/pdf.worker.min.js';
 
-    // Bind events
-    if (prevBtn) prevBtn.addEventListener('click', prevPage);
-    if (nextBtn) nextBtn.addEventListener('click', nextPage);
+    // Bind toolbar events
+    if (prevBtn) prevBtn.addEventListener('click', prevSpread);
+    if (nextBtn) nextBtn.addEventListener('click', nextSpread);
     if (zoomInBtn) zoomInBtn.addEventListener('click', zoomIn);
     if (zoomOutBtn) zoomOutBtn.addEventListener('click', zoomOut);
     if (fullscreenBtn) fullscreenBtn.addEventListener('click', toggleFullscreen);
-    if (fitWidthBtn) fitWidthBtn.addEventListener('click', fitWidth);
+    if (viewModeBtn) viewModeBtn.addEventListener('click', toggleViewMode);
 
+    // Click zones
+    if (navPrev) navPrev.addEventListener('click', prevSpread);
+    if (navNext) navNext.addEventListener('click', nextSpread);
+
+    // Page input
     if (pageInput) {
-      pageInput.addEventListener('change', function () {
-        goToPage(this.value);
-      });
+      pageInput.addEventListener('change', function () { goToPage(this.value); });
       pageInput.addEventListener('keydown', function (e) {
         if (e.key === 'Enter') {
           e.preventDefault();
@@ -287,14 +493,27 @@
       });
     }
 
+    // Keyboard
     document.addEventListener('keydown', handleKeyboard);
 
-    // Fit width on resize (debounced)
+    // Touch/swipe
+    initTouchSupport();
+
+    // Resize handler (debounced)
     var resizeTimeout;
     window.addEventListener('resize', function () {
       clearTimeout(resizeTimeout);
       resizeTimeout = setTimeout(function () {
-        if (pdfDoc) renderPage(currentPage);
+        var wasMobile = isMobile;
+        isMobile = window.innerWidth <= 768;
+
+        if (isMobile && !wasMobile) {
+          bookReader.classList.add('single-mode');
+        } else if (!isMobile && wasMobile && !singleMode) {
+          bookReader.classList.remove('single-mode');
+        }
+
+        recalcScale();
       }, 200);
     });
 
