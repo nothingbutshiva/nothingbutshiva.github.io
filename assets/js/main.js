@@ -114,6 +114,7 @@
           html +=
             '<article class="book-card" style="animation-delay:' + (i * 0.1) + 's">' +
             '<div class="cover-wrapper">' + coverHtml + '</div>' +
+            '<div class="card-content">' +
             '<div class="card-body">' +
             '<h3>' + escapeHtml(book.title) + '</h3>' +
             (book.author ? '<div class="author">by ' + escapeHtml(book.author) + '</div>' : '') +
@@ -121,6 +122,7 @@
             '</div>' +
             '<div class="card-actions">' +
             '<a href="' + readerUrl + '" class="btn-read">📖 Read Online</a>' +
+            '</div>' +
             '</div>' +
             '</article>';
         });
