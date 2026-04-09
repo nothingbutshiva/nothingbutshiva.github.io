@@ -1,10 +1,10 @@
 [
   {
-    "id": "sample-book",
-    "title": "Sample Book",
+    "id": "the-essence-of-shiva",
+    "title": "The Essence of Shiva",
     "author": "Nothing But Shiva",
-    "description": "This is a sample book entry. Replace it with your actual book details, cover image, and PDF file.",
+    "description": "An introduction to Lord Shiva — the Supreme Consciousness, the cosmic dancer, and the destroyer of ignorance. Explore the symbolism, sacred mantras, and eternal wisdom of Mahadeva.",
     "cover": "",
-    "pdf": "books/sample-book.pdf"
+    "pdf": "books/the-essence-of-shiva.pdf"
   }
 ]
