@@ -1,208 +1,208 @@
 ---
-title: "Forms and Manifestations of Lord Shiva (शिव के विविध रूप)"
-description: "Explore the many divine forms of Lord Shiva — from the fierce Rudra and Bhairava to the serene Dakshinamurthy and cosmic Nataraja."
+title: "शिव के दिव्य रूप और प्रकाशन (शिव के विविध रूप)"
+description: "महादेव शिव के अनेक दिव्य रूपों का अन्वेषण करें — प्रचण्ड रुद्र और भैरव से लेकर शान्त दक्षिणामूर्ति और ब्रह्मांडीय नटराज तक।"
 date: "2026-04-09"
 ---
 
-# Forms and Manifestations of Lord Shiva (शिव के विविध रूप)
+# शिव के दिव्य रूप और प्रकाशन
 
-Lord Shiva, the Mahadeva of the Hindu trinity, is not bound to a single form. Across the Vedas, Puranas, Agamas, and living temple traditions, He reveals Himself in countless manifestations — each embodying a distinct cosmic function. From the roaring fury of Rudra to the still silence of Dakshinamurthy, every form of Shiva teaches something profound about the nature of existence.
+भगवान शिव, हिन्दु त्रिमूर्ति के महादेव, किसी एक रूप में सीमाबद्ध नहीं हैं। वेद, पुराण, आगम और जीवन्त मन्दिर परम्परा में वे अपने को असंख्य प्रकाशनों में प्रकट करते हैं — प्रत्येक रूप एक विशेष ब्रह्मांडीय कार्य को मूर्त करता है। प्रचण्ड रुद्र की गर्जना से लेकर दक्षिणामूर्ति की शान्त मौन तक, शिव के प्रत्येक रूप अस्तित्व की प्रकृति के विषय में कोई गहन सत्य सिखाता है।
 
-The Shiva Purana declares:
+शिव पुराण घोषणा करता है:
 
-> **"एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा"**
-> *"The one God is hidden in all beings, all-pervading, the inner Self of all."*
-> — Shvetashvatara Upanishad 6.11
+> **एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा।**\
+> एकमात्र देव सभी प्राणियों में गुप्त है, सर्वव्यापी है, सभी का अन्तरात्मा है।\
+> — श्वेताश्वतर उपनिषद् ६.११ ॥
 
-This article explores twelve celebrated forms of Shiva as described in scripture and worshipped across the subcontinent.
-
----
-
-## 1. Rudra (रुद्र) — The Howling Storm
-
-**Sanskrit:** रुद्र — *"the one who roars"* or *"the one who drives away sorrow"*
-
-Rudra is the oldest and most primal form of Shiva, appearing prominently in the Rigveda and the Yajurveda. He is the lord of storms, the wielder of the thunderbolt, and the divine archer whose arrows bring both disease and healing. The Sri Rudram (Namakam and Chamakam) of the Yajurveda is the most ancient and powerful hymn dedicated to this form, chanted in Vedic rituals to this day.
-
-The Vedic tradition speaks of **Ekadasha Rudra** — the eleven Rudras — who are cosmic forces governing different aspects of the life-breath (prana) and the elements. Their names vary across texts, but commonly include Kapali, Pingala, Bhima, Virupaksha, Vilohita, Shasta, Ajapada, Ahirbudhnya, Shambhu, Chanda, and Bhava. Together, they represent Shiva's omnipresence in every force of nature.
-
-Rudra is fierce yet benevolent. The Shvetashvatara Upanishad calls him the supreme cause of all creation, preservation, and dissolution. He is worshipped for protection, healing, and liberation.
-
-**Where worshipped:** The Sri Rudram is chanted in Shaiva temples throughout India, especially at Rameswaram and in major Shiva Kshetras of Tamil Nadu and Varanasi.
+यह लेख शास्त्र में वर्णित और समस्त भारतवर्ष में पूजित बारह प्रसिद्ध शिव रूपों का विवरण प्रस्तुत करता है।
 
 ---
 
-## 2. Bhairava (भैरव) — The Terrifying Guardian
+## १. रुद्र (रुद्र) — गर्जनशील वायु
 
-**Sanskrit:** भैरव — *"the frightful one"* (from bhī, "to fear") or *"he who protects those who fear worldly existence"*
+**संस्कृत:** रुद्र — "जो गर्जन करता है" अथवा "जो सङ्कट को दूर करता है"
 
-Bhairava is Shiva's fierce, terrifying manifestation — the cosmic guardian who annihilates ignorance and ego. According to the Shiva Purana, Bhairava emerged when Shiva severed the fifth head of Brahma for his arrogance, and thereafter wandered as a skull-bearing ascetic performing the Kapala Vrata penance. This act established Bhairava as both destroyer of pride and the embodiment of supreme penance.
+रुद्र शिव का सबसे प्राचीन और मौलिक रूप है, ऋग्वेद और यजुर्वेद में प्रमुखता से प्रकट होता है। वह वायु-मण्डल का अधिपति, वज्र का धारक और दिव्य धनुर्धर है, जिसके बाण रोग और उपचार दोनों लाते हैं। यजुर्वेद की श्री रुद्राध्यायी (नमकम् और चमकम्) इस रूप को समर्पित सबसे प्राचीन और शक्तिशाली मन्त्र है, जो आज भी वैदिक यज्ञों में मन्त्रणीय है।
 
-The tradition recognizes **Ashta Bhairava** (अष्ट भैरव) — eight principal forms of Bhairava — each ruling a direction and governing a specific cosmic power. They are: Asitanga, Ruru, Chanda, Krodha, Unmatta, Kapala, Bhishana, and Samhara Bhairava. Above them all stands **Kala Bhairava** (काल भैरव), the Lord of Time and the supreme guardian of sacred spaces. In Varanasi (Kashi), it is said that no pilgrimage is complete without paying respects to Kala Bhairava, the Kotwal (divine constable) of the city.
+वैदिक परम्परा **एकादश रुद्र** की बात करती है — ग्यारह रुद्र — जो प्राणशक्ति और तत्त्वों के विविध पहलुओं को नियन्त्रित करने वाली ब्रह्मांडीय शक्तियाँ हैं। इनके नाम विभिन्न ग्रन्थों में भिन्न हैं, किन्तु सामान्यतः कपाली, पिङ्गल, भीम, विरूपाक्ष, विलोहित, शास्त्र, अजपाद, अहिर्बुध्न्य, शम्भु, चण्ड और भव को सम्मिलित माना जाता है। एकत्रित होकर वे शिव की सर्वव्यापकता को प्रकृति की प्रत्येक शक्ति में प्रदर्शित करते हैं।
 
-Bhairava is often depicted with a dog as his vahana, carrying a trident, drum, and the skull of Brahma. He is the protector of temples and the destroyer of fear itself.
+रुद्र प्रचण्ड किन्तु कल्याणकारी हैं। श्वेताश्वतर उपनिषद् उन्हें सृष्टि, स्थिति और संहार का परम कारण कहता है। उन्हें रक्षा, चिकित्सा और मुक्ति के लिए आराधित करते हैं।
 
-**Where worshipped:** Kala Bhairava Temple in Varanasi, Bhairavnath Temple in Ujjain, and across Shakti Peethas where Bhairava guards each seat of the Goddess.
-
----
-
-## 3. Nataraja (नटराज) — The Lord of Dance
-
-**Sanskrit:** नटराज — *Nata* (dance) + *Raja* (king) — *"the King of Dance"*
-
-Nataraja is perhaps the most iconic form of Shiva in world art and philosophy. In this form, Shiva performs the **Ananda Tandava** (the Dance of Bliss) — the cosmic dance that simultaneously creates, sustains, and dissolves the universe. The Nataraja iconography encodes the entire cycle of existence within a single image.
-
-His upper right hand holds the **damaru** (drum), symbolizing the rhythm of creation and the origin of sound (Nada Brahma). His upper left hand bears **Agni** (fire), representing the dissolution that must precede every new creation. His lower right hand is raised in **Abhaya Mudra** (the gesture of fearlessness), granting refuge to devotees. His lower left hand points to his raised foot, signifying liberation (anugraha). His right foot crushes **Apasmara**, the dwarf-demon of ignorance. The ring of fire (Prabha Mandala) encircling him represents the endless cycle of samsara.
-
-The Chidambaram Nataraja Temple in Tamil Nadu is the foremost shrine of this form, where Shiva is believed to perform his cosmic dance in the golden hall (Kanaka Sabha). The temple's architecture itself is designed as a representation of the human body and the cosmos. The Chidambara Rahasyam — the secret of Chidambaram — points to the formless Akasha (space) as Shiva's truest nature behind the dance.
-
-**Where worshipped:** Chidambaram Nataraja Temple (Tamil Nadu), and in bronze iconography across all Shaiva temples of South India.
+**पूजन स्थान:** श्री रुद्राध्यायी शैव मन्दिरों में पूरे भारत में, विशेषतः रामेश्वरम् और तमिल नाडु के प्रधान शिव क्षेत्रों तथा वाराणसी में मन्त्रणीय है।
 
 ---
 
-## 4. Dakshinamurthy (दक्षिणामूर्ति) — The Silent Teacher
+## २. भैरव (भैरव) — भयावह रक्षक
 
-**Sanskrit:** दक्षिणामूर्ति — *Dakshina* (south / grace) + *Murti* (form) — *"the one who faces south"* or *"the form of grace"*
+**संस्कृत:** भैरव — "भयानक" (भी से, "भय करना") अथवा "जो सांसारिक भय से आतङ्कित जनों की रक्षा करता है"
 
-Dakshinamurthy is Shiva as the Adi Guru — the first and supreme teacher. In this extraordinary form, the young Shiva sits beneath a banyan tree, facing south, teaching the most ancient sages — Sanaka, Sanandana, Sanatana, and Sanatkumara — the highest truths of the Vedanta. What makes this teaching unique is its method: Shiva teaches not through words but through **Mauna** (silence) and **Chin Mudra** (the gesture of supreme knowledge, with thumb and index finger touching to form a circle).
+भैरव शिव का प्रचण्ड, भयावह प्रकाशन है — वह ब्रह्मांडीय रक्षक जो अज्ञान और अहङ्कार का विनाश करता है। शिव पुराण के अनुसार भैरव तब प्रकट हुए जब शिव ने ब्रह्मा के अहङ्कार के कारण उनका पञ्चम शिर काट दिया, और तदनन्तर वे खोपड़ी धारण करते हुए कपाल व्रत पेनांस के लिए भटकते रहे। इस कर्म ने भैरव को अहङ्कार का विनाश करने वाले और सर्वोच्च तप का मूर्त के रूप में स्थापित किया।
 
-The Dakshinamurthy Stotram by Adi Shankaracharya is one of the most celebrated hymns in Advaita Vedanta, opening with the verse:
+परम्परा **अष्ट भैरव** को पहचानती है — भैरव के आठ प्रधान रूप — जो दिशाओं पर शासन करते हैं और विशेष ब्रह्मांडीय शक्तियों को नियन्त्रित करते हैं। ये हैं: असितांग, रुरु, चण्ड, क्रोध, उन्मत्त, कपाल, भीषण और संहार भैरव। इन सभी के ऊपर **काल भैरव** (काल भैरव) है, समय का भगवान और पवित्र स्थानों का सर्वोच्च रक्षक। वाराणसी (काशी) में यह कहा जाता है कि काल भैरव को प्रणाम किए बिना कोई तीर्थ-यात्रा पूर्ण नहीं होती, वह नगर का कोतवाल (दिव्य प्रशासक) है।
 
-> **"चित्रं वटतरोर्मूले वृद्धाः शिष्या गुरुर्युवा।  
-> गुरोस्तु मौनं व्याख्यानं शिष्यास्तु छिन्नसंशयाः॥"**
-> *"Wondrous it is — beneath the banyan tree, the disciples are old and the teacher is young. The teacher's exposition is silence, and the disciples' doubts are fully resolved."*
+भैरव को प्रायः कुत्ते को वाहन के रूप में, त्रिशूल, डमरू और ब्रह्मपाल धारण करते हुए चित्रित किया जाता है। वह मन्दिरों के रक्षक और भय स्वयं को नष्ट करने वाले हैं।
 
-Dakshinamurthy embodies the principle that the highest knowledge — the identity of Atman and Brahman — transcends language. He is the Guru of all Gurus, and every teacher in the Hindu tradition is considered a reflection of this primordial form. In temple architecture, his image is traditionally placed on the southern wall.
-
-**Where worshipped:** The southern niche of virtually every Shiva temple, and especially at temples in Alangudi, Suruttapalli, and the great temples of Kanchipuram.
+**पूजन स्थान:** वाराणसी का काल भैरव मन्दिर, उज्जैन का भैरवनाथ मन्दिर, और शक्तिपीठों में भैरव प्रत्येक पीठ की रक्षा करते हैं।
 
 ---
 
-## 5. Ardhanarishvara (अर्धनारीश्वर) — The Lord Who Is Half Woman
+## ३. नटराज (नटराज) — नृत्य के अधिपति
 
-**Sanskrit:** अर्धनारीश्वर — *Ardha* (half) + *Nari* (woman) + *Ishvara* (lord) — *"the Lord whose half is woman"*
+**संस्कृत:** नटराज — नट (नृत्य) + राज (राजा) — "नृत्य का राजा"
 
-Ardhanarishvara is one of the most philosophically profound forms of Shiva. The right half of the body is Shiva — adorned with matted locks, serpents, the crescent moon, and smeared with ash. The left half is Parvati — graceful, adorned with silks, jewels, and flowers. This form is not merely symbolic of marital union but represents the inseparability of **Purusha** (cosmic consciousness) and **Prakriti** (creative energy), of Shiva and Shakti.
+नटराज संभवतः विश्व कला और दर्शन में शिव का सबसे मूर्तिमान रूप है। इस रूप में शिव **आनन्द ताण्डव** (आनन्द का नृत्य) करते हैं — वह ब्रह्मांडीय नृत्य जो एकसाथ ब्रह्मांड को सृजित, पालित और विलीन करता है। नटराज की मूर्तिकला एक ही प्रतिमा में अस्तित्व के सम्पूर्ण चक्र को सङ्कलित करती है।
 
-The Linga Purana and the Vishnu Purana narrate that Brahma, unable to proceed with creation through males alone, prayed to Shiva, who then revealed the Ardhanarishvara form and separated the feminine principle to enable creation to unfold. The Skanda Purana further describes this form as the state beyond all duality — where subject and object, seer and seen, merge into one.
+ऊर्ध्व दक्षिण हस्त **डमरु** (ढोलक) धारण करता है, जो सृष्टि की लय और ध्वनि (नाद ब्रह्म) के उद्भव को प्रतीकित करता है। ऊर्ध्व वाम हस्त **अग्नि** (अग्नि) धारण करता है, जो विलयन को प्रदर्शित करता है जो प्रत्येक नवीन सृष्टि से पूर्व आवश्यक है। अधः दक्षिण हस्त **अभय मुद्रा** (निर्भयता का संकेत) में उन्नत है, भक्तों को शरण देता है। अधः वाम हस्त उनके उत्थापित पैर की ओर संकेत करता है, जो मुक्ति (अनुग्रह) को सूचित करता है। दक्षिण पैर **अपस्मार** — अज्ञान के बौने-दैत्य को कुचलता है। उन्हें परिवेष्टित अग्नि-मण्डल (प्रभा मण्डल) संसार के अन्तहीन चक्र को प्रतिनिधित्व करता है।
 
-Ardhanarishvara teaches that the divine is neither exclusively masculine nor feminine. Every being carries both Shiva (awareness) and Shakti (energy) within. Liberation arises when these two are recognized as one.
+चित्तम्बरम् का नटराज मन्दिर तमिल नाडु में इस रूप का प्रधान मन्दिर है, जहाँ शिव सुवर्ण-सभा (कनक सभा) में अपना ब्रह्मांडीय नृत्य करते हैं ऐसा माना जाता है। मन्दिर की वास्तु-रचना स्वयं मानव शरीर और ब्रह्मांड के प्रतिनिधित्व के रूप में डिजाइन की गई है। चित्तम्बर रहस्य — चित्तम्बरम् का गोपन — आकाश (आकाश) को नृत्य के पीछे शिव के सर्वाधिक सत्य रूप की ओर संकेत करता है।
 
-**Where worshipped:** Tiruchengode (Ardhanareeswarar Temple, Tamil Nadu), Elephanta Caves (Maharashtra), and in sculptures across Ellora and Khajuraho.
-
----
-
-## 6. Pashupati (पशुपति) — The Lord of All Beings
-
-**Sanskrit:** पशुपति — *Pashu* (bound soul / creature) + *Pati* (lord / master) — *"the Lord of all creatures"*
-
-Pashupati is one of the most ancient names and forms of Shiva, attested in the Atharvaveda and given special prominence in the Pashupata school of Shaivism. In this form, Shiva is the protector of all living beings — from the humblest creature to the most evolved soul. The word *pashu* refers not only to animals but to all souls bound by the three bonds (pasha): **Anava** (ego), **Karma** (action), and **Maya** (illusion). Pashupati is the lord who liberates souls from these bonds.
-
-The famous **Pashupati Seal** discovered at Mohenjo-Daro (circa 2500 BCE) depicts a seated figure in a yogic posture, surrounded by animals — an image many scholars identify with proto-Shiva, suggesting that Shiva worship stretches back to the Indus Valley Civilization, predating the Vedic period.
-
-The Pashupata Sutras attributed to Lakulisha form the foundation of the Pashupata school, one of the oldest organized traditions of Shiva worship, emphasizing asceticism, devotion, and the grace of Pashupati as the means to liberation.
-
-**Where worshipped:** Pashupatinath Temple in Kathmandu (Nepal) — one of the most sacred Shiva shrines in the world — and in ancient Lakulisha temples across Gujarat and Rajasthan.
+**पूजन स्थान:** चित्तम्बरम् नटराज मन्दिर (तमिल नाडु), और दक्षिण भारत के सभी शैव मन्दिरों में काञ्च्य (कांस्य) मूर्तिकला में।
 
 ---
 
-## 7. Sadashiva (सदाशिव) — The Eternal Five-Faced Lord
+## ४. दक्षिणामूर्ति (दक्षिणामूर्ति) — मौन शिक्षक
 
-**Sanskrit:** सदाशिव — *Sada* (always / eternal) + *Shiva* (auspicious) — *"the eternally auspicious one"*
+**संस्कृत:** दक्षिणामूर्ति — दक्षिण (दक्षिण / अनुग्रह) + मूर्ति (रूप) — "वह जो दक्षिण की ओर मुख करता है" अथवा "अनुग्रह का रूप"
 
-Sadashiva is Shiva's supreme, transcendental form — the five-faced cosmic being who governs the five primary functions of the universe. This form is central to the theology of the Shaiva Agamas and the Shaiva Siddhanta tradition. The five faces are known as the **Pancha Brahma** (five aspects of Brahman), each associated with a direction, element, mantra, and cosmic function:
+दक्षिणामूर्ति शिव का आदि गुरु के रूप में है — प्रथम और सर्वोच्च शिक्षक। इस असाधारण रूप में युवा शिव एक वट-वृक्ष के नीचे बैठते हैं, दक्षिण की ओर मुख करते हैं, और सबसे प्राचीन ऋषियों को — सनक, सनन्दन, सनातन और सनत्कुमार को — वेदान्त के सर्वोच्च सत्यों को निरूपित करते हैं। इस निरूपण को जो विशेष बनाता है वह है इसकी पद्धति: शिव शब्दों से नहीं, बल्कि **मौन** (मौन) और **चिन् मुद्रा** (सर्वोच्च ज्ञान का संकेत, अङ्गुष्ठ और तर्जनी को वृत्ताकार रूप में जोड़ते हुए) से शिक्षा देते हैं।
 
-- **Sadyojata** (सद्योजात) — West — Creation — Earth — *"the one who is born immediately"*
-- **Vamadeva** (वामदेव) — North — Preservation — Water — *"the beautiful, graceful god"*
-- **Aghora** (अघोर) — South — Dissolution — Fire — *"the non-terrible"* (beyond fear)
-- **Tatpurusha** (तत्पुरुष) — East — Concealment (Tirobhava) — Air — *"the supreme soul"*
-- **Ishana** (ईशान) — Upward (Zenith) — Grace (Anugraha) — Ether — *"the ruler of all"*
+दक्षिणामूर्ति स्तोत्र आदि शङ्कराचार्य द्वारा अद्वैत वेदान्त के सबसे प्रसिद्ध भजनों में से एक है, जो श्लोक से शुरू होता है:
 
-The Pancha Brahma Upanishad describes these five faces as the source of the five elements, the five senses, and the five acts of God. Together, they constitute the totality of Shiva — from the grossest matter to the subtlest consciousness. Sadashiva is the form meditated upon in advanced Shaiva initiation rites and is the presiding deity of the highest tattva (Sadashiva Tattva) in the 36-tattva framework of Kashmir Shaivism.
+> **चित्रं वटतरोर्मूले वृद्धाः शिष्या गुरुर्युवा।**\
+> गुरोस्तु मौनं व्याख्यानं शिष्यास्तु छिन्नसंशयाः॥\
+> "आश्चर्यमय है — वट-वृक्ष के नीचे शिष्य वृद्ध हैं और गुरु युवा है। गुरु की व्याख्या मौन है, और शिष्यों के संशय पूर्णरूप से दूर हो गए हैं।" ॥
 
-**Where worshipped:** The Pancha Mukha Linga (five-faced Shiva Linga) is found at temples in Pashupatinath (Nepal), Kalahasti (Andhra Pradesh), and Nachna Kuthara (Madhya Pradesh).
+दक्षिणामूर्ति इस सिद्धान्त को मूर्त करते हैं कि सर्वोच्च ज्ञान — आत्मन् और ब्रह्मन् की एकता — भाषा से परे है। वह सभी गुरुओं के गुरु हैं, और हिन्दु परम्परा में प्रत्येक शिक्षक इस आदि रूप का प्रतिबिम्ब माना जाता है। मन्दिर वास्तु में उनकी प्रतिमा परम्परागतः दक्षिण-भित्ती पर रखी जाती है।
 
----
-
-## 8. Mahakala (महाकाल) — The Lord of Time
-
-**Sanskrit:** महाकाल — *Maha* (great) + *Kala* (time / death) — *"the Great Time"* or *"the one beyond time"*
-
-Mahakala is Shiva as the ruler and devourer of time itself. While Kala (time) consumes all beings, Mahakala consumes even time — He is, as the texts say, **Kala-sya-Kalah** — *"the death of death."* This form represents the ultimate transcendence beyond the temporal realm.
-
-The Shiva Purana describes Mahakala as the fierce protector who slew the demon Dushana to protect the city of Avanti (modern Ujjain), and established himself there as the Jyotirlinga. The **Mahakaleshwar Temple in Ujjain** is one of the twelve sacred Jyotirlingas and the only one described as *Swayambhu* (self-manifested) and *Dakshinamukhī* (south-facing), linking it to the mysteries of death and transcendence. The daily **Bhasma Aarti** performed here before dawn — where the lingam is adorned with sacred ash from cremation grounds — is among the most powerful rituals in all of Shaivism.
-
-Mahakala is also revered in Buddhist Vajrayana traditions as a Dharmapala (protector of the Dharma), demonstrating the cross-tradition reach of this mighty form.
-
-**Where worshipped:** Mahakaleshwar Temple in Ujjain (Madhya Pradesh) — one of the foremost pilgrimage sites in India — and in Tantric shrines across the Himalayas and Tibet.
+**पूजन स्थान:** वस्तुतः प्रत्येक शैव मन्दिर की दक्षिण-निधि में, विशेषतः अलङ्गुडी, सुरुत्तपल्ली और कञ्चिपुरम् के महान मन्दिरों में।
 
 ---
 
-## 9. Kirata (किरात) — The Divine Hunter
+## ५. अर्धनारीश्वर (अर्धनारीश्वर) — अर्ध-नारी अधिपति
 
-**Sanskrit:** किरात — *"the hunter"* or *"mountain tribesman"*
+**संस्कृत:** अर्धनारीश्वर — अर्ध (आधा) + नारी (स्त्री) + ईश्वर (भगवान) — "वह भगवान जिसका आधा भाग नारी है"
 
-The Kirata form of Shiva appears in one of the most dramatic episodes of the Mahabharata, narrated in the **Kiratarjuniya** section of the Vana Parva. During their exile in the forest, Arjuna performs severe austerities on Mount Indrakila to obtain divine weapons for the coming war. Shiva, to test Arjuna's mettle, disguises himself as a Kirata — a wild tribal hunter — and appears along with Parvati, also in hunter's garb.
+अर्धनारीश्वर शिव के सबसे दार्शनिक दृष्टि से गहन रूपों में से एक है। शरीर का दक्षिण पक्ष शिव है — मद्दर-लोचन, सर्पों, द्विचन्द्र और भस्म से सज्जित। पक्ष वाम पार्ष्व पार्वती है — सुन्दर, रेशम, भूषण और पुष्पों से सज्जित। यह रूप केवल विवाह-सङ्गम का प्रतीक नहीं है, बल्कि **पुरुष** (ब्रह्मांडीय चेतना) और **प्रकृति** (सृजनात्मक शक्ति), शिव और शक्ति की अपृथञ्जनीयता को प्रदर्शित करता है।
 
-A wild boar (actually the demon Muka sent by Duryodhana) charges at Arjuna. Both Arjuna and the Kirata shoot their arrows simultaneously, and a fierce dispute arises over who struck the killing blow. Arjuna, not recognizing Shiva, engages the hunter in a furious combat. Despite his finest weapons and prowess, Arjuna cannot prevail. When he finally offers a garland to a clay Shiva Linga in desperate prayer, the garland appears around the Kirata's neck, revealing him as Mahadeva. Humbled and filled with devotion, Arjuna prostrates before Shiva, who blesses him and grants him the invincible **Pashupatastra** — the supreme celestial weapon.
+लिङ्ग पुराण और विष्णु पुराण वर्णन करते हैं कि ब्रह्मा, केवल पुरुषों के माध्यम से सृष्टि को आगे बढ़ाने में असमर्थ, शिव से प्रार्थना करते हैं, जो तब अर्धनारीश्वर रूप को प्रकट करते हैं और स्त्रीत्व के सिद्धान्त को अलग करते हैं सृष्टि को विकसित होने देने के लिए। स्कन्द पुराण आगे इस रूप को सभी द्वैतता से परे की स्थिति के रूप में वर्णन करता है — जहाँ विषय और विषय, दर्शक और दृश्य, एक में विलीन हो जाते हैं।
 
-Bharavi's 6th-century Sanskrit mahakavya, the **Kiratarjuniyam**, is one of the six great epics of classical Sanskrit literature, immortalizing this story.
+अर्धनारीश्वर सिखाता है कि दिव्य न तो विशेषतः पुरुष है और न ही नारी है। प्रत्येक प्राणी अपने में शिव (चेतना) और शक्ति (ऊर्जा) दोनों वहन करता है। मुक्ति तब प्राप्त होती है जब ये दोनों को एकता में मान्यता मिले।
 
-**Where worshipped:** Kirateshwar Mahadev Temple in Legship (Sikkim) and shrines along the Himalayan pilgrim trails.
-
----
-
-## 10. Veerabhadra (वीरभद्र) — Born from Divine Fury
-
-**Sanskrit:** वीरभद्र — *Veera* (heroic / mighty) + *Bhadra* (blessed / auspicious) — *"the heroically auspicious one"*
-
-Veerabhadra is the fierce warrior who erupted from Shiva's matted locks — born from a single strand of hair dashed against the ground in towering rage. The Shiva Purana and the Vayu Purana recount the cause: Daksha Prajapati, the father of Sati (Shiva's first consort), organized a grand Yajna (fire sacrifice) and deliberately humiliated Shiva by excluding him. Sati, unable to bear the insult to her lord, immolated herself in the sacrificial fire.
-
-When the devastating news reached Shiva, his grief transformed into cosmic fury. From his rage arose Veerabhadra — a colossal, dark-complexioned warrior with a thousand arms, three blazing eyes, and hair as wild as fire. Accompanied by Bhadrakali and hordes of Ganas, Veerabhadra descended upon Daksha's sacrifice and laid waste to the assembly. He defeated the gods, scattered the sages, and beheaded Daksha himself. Later, when Shiva's wrath subsided, Daksha was restored to life with a goat's head and became a devout worshipper of Shiva.
-
-Veerabhadra represents the divine principle that dharma cannot be violated without consequence, and that devotion to the Lord is the highest dharma.
-
-**Where worshipped:** Veerabhadra Temple at Lepakshi (Andhra Pradesh), one of the finest Vijayanagara-era temples, and at Varanasi.
+**पूजन स्थान:** तिरुचेङ्गोडे (अर्धनारीश्वर मन्दिर, तमिल नाडु), एलिफण्टा गुफाएँ (महाराष्ट्र), और एलोरा और खजुराहो की मूर्तिकला में।
 
 ---
 
-## 11. Gangadhara (गंगाधर) — The Bearer of the Ganga
+## ६. पशुपति (पशुपति) — सम्पूर्ण प्राणियों के अधिपति
 
-**Sanskrit:** गंगाधर — *Ganga* + *Dhara* (bearer / holder) — *"the one who holds the Ganga"*
+**संस्कृत:** पशुपति — पशु (बद्ध आत्मा / प्राणी) + पति (प्रभु / स्वामी) — "सभी प्राणियों के प्रभु"
 
-Gangadhara depicts the moment when Shiva received the mighty river Ganga upon his matted locks to save the earth from the force of her celestial descent. The story, narrated extensively in the Ramayana and the Bhagavata Purana, begins with King Bhagiratha, who performed severe penance for thousands of years to bring Ganga down from the heavens to purify the ashes of his ancestors — the sixty thousand sons of King Sagara who had been reduced to ash by the gaze of Sage Kapila.
+पशुपति शिव के सबसे प्राचीन नाम और रूपों में से एक है, अथर्ववेद में प्रमाणित और पाशुपत शैववाद के विद्यालय में विशेष प्रमुखता दी गई है। इस रूप में शिव सभी जीवित प्राणियों के रक्षक हैं — सबसे नम्र प्राणी से लेकर सबसे विकसित आत्मा तक। शब्द *पशु* न केवल पशुओं को बल्कि तीन बन्धनों से बद्ध सभी आत्माओं को संदर्भित करता है (पाश): **अणव** (अहङ्कार), **कर्म** (कर्म) और **माया** (भ्रान्ति)। पशुपति वह भगवान हैं जो आत्माओं को इन बन्धनों से मुक्त करते हैं।
 
-Ganga, proud of her power, descended with full force intending to sweep even Shiva into the netherworld. But Shiva calmly caught her thundering torrents in his vast jata (matted locks), taming her into gentle streams that flowed down to nourish the earth. This act symbolizes how divine grace (Ganga) must be tempered by divine consciousness (Shiva) to benefit creation rather than overwhelm it.
+मोहन्जोदड़ो (लगभग २५०० ईसा पूर्व) में खोजी गई प्रसिद्ध **पशुपति-मुहर** एक ध्यान-स्थिति में बैठे व्यक्ति को दर्शाती है, चारों ओर जानवरों से घिरी — एक ऐसी प्रतिमा जिसे कई विद्वान प्रोटो-शिव के रूप में पहचानते हैं, यह संकेत करते हुए कि शिव की पूजा वैदिक काल से पहले सिन्धु घाटी सभ्यता तक जाती है।
 
-In this form, Shiva is depicted standing with Ganga flowing from his locks, often with Parvati by his side and Bhagiratha in prayer at his feet.
+लकुलीश को श्रेय दिए गए पाशुपत सूत्र पाशुपत विद्यालय की नींव बनाते हैं, शैवधर्मवाद के सबसे प्राचीन संगठित परम्पराओं में से एक, तपस्या, भक्ति और पशुपति की कृपा को मुक्ति के माध्यम के रूप में जोर देना।
 
-**Where worshipped:** Gangotri (Uttarakhand), the origin temple of the Ganga; the Gangadhara panel at the Kailasanatha Temple in Kanchipuram; and in the famed rock-cut relief at Mahabalipuram (Arjuna's Penance / Descent of the Ganga).
-
----
-
-## 12. Umapati / Somaskanda (उमापति / सोमस्कन्द) — The Divine Family
-
-**Sanskrit:** उमापति — *Uma* (Parvati) + *Pati* (lord) — *"the Lord of Uma"*
-सोमस्कन्द — *Sa* (with) + *Uma* + *Skanda* — *"together with Uma and Skanda"*
-
-While most forms of Shiva emphasize his cosmic power, asceticism, or transcendence, the Somaskanda form reveals the tender, familial aspect of the divine. Here, Shiva sits beside **Uma (Parvati)**, with their son **Skanda (Murugan/Kartikeya)** between them — or sometimes on Uma's lap. This form celebrates Shiva not as the world-renouncer but as the ideal householder, the loving spouse, and the devoted father.
-
-The Somaskanda panel is a defining feature of **Pallava-era temples** in Tamil Nadu, appearing prominently in the sanctum walls of temples dating from the 7th and 8th centuries. The Tevaram hymns of the Nayanar poet-saints — Appar, Sundarar, and Sambandar — sing lovingly of Shiva's domestic bliss, describing how Uma and Shiva share the same body (Ardhanarishvara), the same throne, and the same cosmic purpose.
-
-This form teaches that family life, when rooted in dharma and devotion, is itself a path to the divine. Shiva as Umapati sanctifies the grihastha (householder) ashrama and affirms that love, partnership, and the nurturing of the next generation are sacred duties.
-
-**Where worshipped:** The Shore Temple at Mahabalipuram, Kailasanatha Temple at Kanchipuram, and across Pallava and Chola-era Shiva temples in Tamil Nadu.
+**पूजन स्थान:** पशुपतिनाथ मन्दिर काठमाडौ (नेपाल) में — विश्व के सबसे पवित्र शैव मन्दिरों में से एक — और गुजरात और राजस्थान में प्राचीन लकुलीश मन्दिरों में।
 
 ---
 
-## Conclusion: The One in Many
+## ७. सदाशिव (सदाशिव) — सदा-अशुभ पञ्चमुखी भगवान
 
-The many forms of Shiva are not separate gods but facets of a single, infinite reality. As the Shiva Purana proclaims:
+**संस्कृत:** सदाशिव — सदा (सदा / शाश्वत्) + शिव (कल्याणकारी) — "शाश्वत रूप से कल्याणकारी"
 
-> **"रूपं रूपं प्रतिरूपो बभूव"**
-> *"He became the form behind every form."*
+सदाशिव शिव का सर्वोच्च, अतिलौकिक रूप है — पञ्चमुख ब्रह्मांडीय सत्ता जो ब्रह्मांड के पाँच प्राधान्य कार्यों को नियन्त्रित करता है। यह रूप शैव आगमों के धर्मशास्त्र और शैव सिद्धान्त परम्परा के लिए केन्द्रीय है। पाँच मुख **पञ्च ब्रह्म** (ब्रह्मन् के पाँच पहलू) के रूप में ज्ञात हैं, प्रत्येक एक दिशा, तत्त्व, मन्त्र और ब्रह्मांडीय कार्य से जुड़ा है:
 
-Whether as the ferocious Bhairava who guards the gates of Kashi, the silent Dakshinamurthy beneath the banyan tree, the dancing Nataraja within the ring of fire, or the gentle Umapati holding his family close — each manifestation is a doorway into the infinite. To know any one form deeply is to glimpse the whole; to contemplate them all is to realize that Shiva is not confined to any form, yet lovingly assumes every form for the sake of his devotees.
+— **सद्योजात** (सद्योजात) — पश्चिम — सृष्टि — पृथ्वी — "जो तुरन्त जन्म लेता है"
+— **वामदेव** (वामदेव) — उत्तर — स्थिति — जल — "सुन्दर, मनोरम देव"
+— **अघोर** (अघोर) — दक्षिण — विलयन — अग्नि — "जो भयानक नहीं है" (भय से परे)
+— **तत्पुरुष** (तत्पुरुष) — पूर्व — गोपन (तिरोभाव) — वायु — "परम आत्मा"
+— **ईशान** (ईशान) — ऊर्ध्व (शिखर) — अनुग्रह (अनुग्रह) — आकाश — "सभी का शासक"
 
-> **ॐ नमः शिवाय**
-> *Om Namah Shivaya*
+पञ्च ब्रह्म उपनिषद् इन पञ्चमुखों को पञ्च तत्त्वों, पञ्च इन्द्रियों और ईश्वर के पञ्च कर्मों के स्रोत के रूप में वर्णन करता है। एकत्रित होकर वे शिव की सम्पूर्णता को गठित करते हैं — सबसे सकल पदार्थ से लेकर सूक्ष्मतम चेतना तक। सदाशिव उन्नत शैव दीक्षा संस्कारों में ध्यान का विषय है और कश्मीर शैववाद के ३६-तत्त्व-संरचना में सर्वोच्चतम तत्त्व (सदाशिव तत्त्व) का अधिपति देव है।
+
+**पूजन स्थान:** पञ्चमुखी लिङ्ग (पञ्चमुखी शिव लिङ्ग) पशुपतिनाथ (नेपाल), कालहस्ति (आन्ध्र प्रदेश) और नचना कुठार (मध्य प्रदेश) के मन्दिरों में पाया जाता है।
+
+---
+
+## ८. महाकाल (महाकाल) — समय का भगवान
+
+**संस्कृत:** महाकाल — महा (महान्) + काल (समय / मृत्यु) — "महान् समय" अथवा "जो समय से परे है"
+
+महाकाल शिव हैं स्वयं समय का शासक और भक्षक। जबकि काल (समय) सभी प्राणियों को भक्षण करता है, महाकाल काल को भी भक्षण करते हैं — वह हैं, जैसा कि ग्रन्थ कहते हैं, **कालस्य कालः** — "मृत्यु की मृत्यु।" यह रूप कालिक क्षेत्र से परे अन्तिम अतिक्रमण को प्रदर्शित करता है।
+
+शिव पुराण वर्णन करता है कि महाकाल ने दुषण नामक दैत्य को पराजित किया अवन्तीपुरी (आधुनिक उज्जैन) की रक्षा के लिए, और वहाँ स्वयं को ज्योतिर्लिङ्ग के रूप में स्थापित किया। **उज्जैन का महाकालेश्वर मन्दिर** बारह पवित्र ज्योतिर्लिङ्गों में से एक है और एकमात्र जिसे *स्वयम्भू* (स्वयं-प्रकट) और *दक्षिणामुखी* (दक्षिण-मुखी) के रूप में वर्णित किया जाता है, जो इसे मृत्यु और अतिक्रमण के रहस्यों से जोड़ता है। यहाँ दैनिक **भस्म आरती** सूर्योदय से पहले की जाती है — जहाँ लिङ्गम् को श्मशान से पवित्र भस्म से सज्जित किया जाता है — शैववाद के सभी संस्कारों में सबसे शक्तिशाली अनुष्ठानों में से एक है।
+
+महाकाल को बौद्ध वज्रयान परम्पराओं में धर्मपाल (धर्मरक्षक) के रूप में भी सम्मानित किया जाता है, जो इस प्रबल रूप की परम्परा-पार पहुँच को प्रदर्शित करता है।
+
+**पूजन स्थान:** उज्जैन का महाकालेश्वर मन्दिर (मध्य प्रदेश) — भारत के सबसे प्रधान तीर्थ-स्थलों में से एक — और हिमालय और तिब्बत के मन्त्रिक मन्दिरों में।
+
+---
+
+## ९. किरात (किरात) — दिव्य शिकारी
+
+**संस्कृत:** किरात — "शिकारी" अथवा "पर्वतीय जनजाति-मनुष्य"
+
+किरात रूप शिव की महाभारत के सबसे नाटकीय प्रसङ्गों में से एक में प्रकट होता है, जिसका वर्णन वन पर्व के **किरातार्जुनीय** अन्तर्गत है। अपनी वन-वासना के दौरान, अर्जुन आसन्न युद्ध के लिए दिव्य अस्त्र प्राप्त करने के लिए इन्द्रकील पर्वत पर कठोर तपस्या करते हैं। शिव अर्जुन की शक्ति को परीक्षित करने के लिए स्वयं को किरात — एक वन्य जनजाति-शिकारी के रूप में छद् करते हैं, और पार्वती भी शिकारी की वेशभूषा में प्रकट होती हैं।
+
+एक वन-सूकर (वास्तव में दुर्योधन द्वारा भेजा गया मुक नामक दैत्य) अर्जुन पर आक्रमण करता है। अर्जुन और किरात दोनों अपने बाण एकसाथ छोड़ते हैं, और प्रहार की सफलता पर प्रचण्ड विवाद उत्पन्न होता है। अर्जुन शिव को पहचान नहीं पाते, किरात-रूपधारी से क्रूर संघर्ष में संलग्न होते हैं। अपनी सर्वश्रेष्ठ अस्त्रों और शौर्य के बावजूद, अर्जुन मुकाबला नहीं कर सकते। जब वह निराश होकर मिट्टी के शिव-लिङ्ग के सामने पुष्पमाला समर्पित करते हैं, तो माला किरात के गले में प्रकट होती है, महादेव को प्रकट करते हुए। विनम्र और भक्ति से भरपूर अर्जुन शिव को प्रणाम करते हैं, जो उन्हें आशीष देते हैं और सर्वोच्च दिव्य अस्त्र **पाशुपताष्त्र** प्रदान करते हैं — अजेय परम अस्त्र।
+
+भारवि का छठी शताब्दी की संस्कृत महाकाव्य **किरातार्जुनीयम्** शास्त्रीय संस्कृत साहित्य की छः महान् महाकाव्यों में से एक है, इस कथा को अमर कर देता है।
+
+**पूजन स्थान:** लेगशिप (सिक्किम) में किरातेश्वर महादेव मन्दिर और हिमालय-तीर्थ पथों के साथ मन्दिरों में।
+
+---
+
+## १०. वीरभद्र (वीरभद्र) — दिव्य प्रकोप से जन्मा
+
+**संस्कृत:** वीरभद्र — वीर (वीर / शक्तिशाली) + भद्र (कल्याणकारी / आशीष्मय) — "वीरतापूर्वक कल्याणकारी"
+
+वीरभद्र वह प्रचण्ड योद्धा हैं जो शिव के मद्दर-लोचन से — एक ही अलोचन को भूमि के विरुद्ध प्रहारित करने से — त्रुटि निकले। शिव पुराण और वायु पुराण कारण का वर्णन करते हैं: दक्ष प्रजापति, सती (शिव की प्रथम पत्नी) के पिता, एक भव्य यज्ञ का आयोजन करते हैं और शिव को जानबूझकर अपमानित करते हुए बहिष्कृत करते हैं। सती अपने प्रभु के अपमान सहन नहीं कर सकती, यज्ञ-अग्नि में आत्मदाह कर लेती है।
+
+जब यह विनाशकारी समाचार शिव तक पहुँचता है, उनका शोक ब्रह्मांडीय प्रकोप में परिणत होता है। उनके क्रोध से वीरभद्र उत्पन्न होते हैं — एक विराट्, काले रङ्ग के योद्धा जिनके हजार भुजाएँ, तीन ज्वलन्त नेत्र और अग्नि-सदृश व्याल केश हैं। भद्रकाली और गणों की भीड़ के साथ, वीरभद्र दक्ष के यज्ञ पर उतरते हैं और विधि भङ्ग करते हैं। वे देवताओं को परास्त करते हैं, ऋषियों को बिखेरते हैं, और दक्ष को स्वयं मस्तक काट देते हैं। बाद में, जब शिव का क्रोध शान्त हो जाता है, दक्ष को पुनः जीवित किया जाता है, किन्तु बकरे का मस्तक धारण करते हुए, और वह शिव का परम भक्त बन जाता है।
+
+वीरभद्र इस दिव्य सिद्धान्त को प्रदर्शित करते हैं कि धर्म-हरण परिणाम के बिना नहीं रह सकता, और प्रभु के प्रति भक्ति ही सर्वोच्च धर्म है।
+
+**पूजन स्थान:** लेपाक्षी (आन्ध्र प्रदेश) का वीरभद्र मन्दिर, विजयनगरकाल-वास्तु का सुन्दरतम उदाहरण, और वाराणसी में।
+
+---
+
+##११. गङ्गाधर (गङ्गाधर) — गङ्गा के वाहक
+
+**संस्कृत:** गङ्गाधर — गङ्गा + धर (वाहक / धारक) — "जो गङ्गा को धारण करता है"
+
+गङ्गाधर शिव का वह रूप है जब शिव ने प्रचण्ड नदी गङ्गा को अपने मद्दर-लोचन पर सञ्चित किया पृथ्वी को उनकी दिव्य अवतरण की शक्ति से रक्षा करने के लिए। कथा, जिसका रामायण और भागवत पुराण में विस्तृत वर्णन है, राजा भगीरथ से शुरू होती है, जिन्होंने हजारों वर्षों तक कठोर तपस्या की ताकि गङ्गा को स्वर्ग से पृथ्वी पर उतारा जा सके अपने पूर्वजों की राख को पवित्र करने के लिए — राजा सागर के साठ हजार पुत्र जो ऋषि कपिल की दृष्टि से भस्म हो गए थे।
+
+गङ्गा अपनी शक्ति पर गर्वीय, पूर्ण बल से अवतरित होती है, शिव को नेताल लोक में पूर्वात: करने की आशा रखती है। किन्तु शिव शान्ति से उसके गर्जनशील प्रवाहों को अपने विशाल जता (मद्दर-लोचन) में समाहित कर लेते हैं, उसे कोमल धारा में रूपान्तरित कर देते हैं जो पृथ्वी को सिञ्चित करने के लिए नीचे बहती है। यह कर्य प्रतीकित करता है कि ध्य अनुग्रह (गङ्गा) को कैसे दिव्य चेतना (शिव) द्वारा सहृदय किया जाना चाहिए सृष्टि लाभ के लिए, न कि उसे अभिभूत करने के लिए।
+
+इस रूप में शिव दाँ अपने ज्ञ खड़े दिखाई देते हैं जता से गङ्गा बहती है, प्रायः पार्वती उनके पार्श्व में और भगीरथ उनके पैरों में प्रार्थना करते हुए।
+
+**पूजन स्थान:** गङ्गोत्री (उत्तरखण्ड), गङ्गा के मूल का मन्दिर; कञ्चिपुरम् के कैलासनाथ मन्दिर में गङ्गाधर पञ्चर्चना; और महाबलिपुरम् की प्रसिद्ध शिलामूर्ति-राहत (अर्जुन की तपस्या / गङ्गा का अवतरण)।
+
+---
+
+## १२. उमापति / सोमस्कन्द (उमापति / सोमस्कन्द) — दिव्य परिवार
+
+**संस्कृत:** उमापति — उमा (पार्वती) + पति (प्रभु) — "उमा का प्रभु"
+सोमस्कन्द — स (साथ) + उमा + स्कन्द — "उमा और स्कन्द के साथ"
+
+जबकि शिव के अधिकांश रूप उनकी ब्रह्मांडीय शक्ति, तपस्या या अतिक्रमण को जोर देते हैं, सोमस्कन्द रूप दिव्यता के सौम्य, पारिवारिक पक्ष को प्रकट करता है। यहाँ शिव **उमा (पार्वती)** के पार्श्व में बैठते हैं, उनके पुत्र **स्कन्द (मुरुगन्/कार्तिकेय)** बीच में — अथवा कभी उमा की गोद में। यह रूप दिव्यता को उपभोग करता है न कि विश्वत्यागी के रूप में, बल्कि आदर्श गृहस्थ, प्रेमवान पति और उत्सर्गीय पिता के रूप में।
+
+**सोमस्कन्द पञ्चर्चना** **पल्लव-काल मन्दिरों** की परिभाषित विशेषता है तमिल नाडु में, सातवीं और आठवीं शताब्दियों की तारीखों वाले मन्दिरों की गर्भगृह-भित्तियों में प्रमुखता से प्रदर्शित। तेवारम् -भजने नायनार कविजन — अप्पर, सुन्दरार और सम्बन्दार — शिव के घरेलू आनन्द का प्रेमपूर्वक गान करते हैं, वर्णन करते हैं कि उमा और शिव कैसे एक ही शरीर (अर्धनारीश्वर) साझा करते हैं, एक ही सिंहासन, और एक ही ब्रह्मांडीय आशय।
+
+यह रूप सिखाता है कि पारिवारिक जीवन, जब धर्म और भक्ति में निहित हो, दिव्यता की ओर स्वयं एक पथ है। शिव उमापति के रूप में गृहस्थ आश्रम को पवित्र करते हैं और यह पुष्टि करते हैं कि प्रेम, भागीदारी और अगली पीढ़ी का पालन पवित्र कर्तव्य हैं।
+
+**पूजन स्थान:** महाबलिपुरम् का शोर मन्दिर, कञ्चिपुरम् का कैलासनाथ मन्दिर, और तमिल नाडु के पल्लव और चोल-काल शैव मन्दिरें।
+
+---
+
+## अन्तिम निरीक्षण: अनेकता में एकता
+
+शिव के अनेक रूप अलग-अलग देव नहीं हैं, बल्कि एक अनन्त वास्तविकता के पहलू हैं। जैसा कि शिव पुराण घोषणा करता है:
+
+> **रूपं रूपं प्रतिरूपो बभूव।**\
+> वह प्रत्येक रूप के पीछे का रूप बन गया ॥
+
+चाहे काशी के द्वार की रक्षा करने वाले प्रचण्ड भैरव हों, वट-वृक्ष के नीचे मौन दक्षिणामूर्ति हों, अग्नि-वलय के भीतर नृत्यशील नटराज हों, अथवा अपने परिवार को निकट रखने वाले कोमल उमापति हों — प्रत्येक प्रकाशन अनन्त में प्रवेश का द्वार है। कोई भी एक रूप को गहराई से जानना समस्त को झलक देता है; सभी को चिन्तन करना यह प्रत्यक्ष करना है कि शिव किसी भी रूप तक सीमाबद्ध नहीं हैं, तथापि प्रत्येक रूप अपने भक्तों के लिए प्रेमपूर्वक ग्रहण करते हैं।
+
+> **ॐ नमः शिवाय।**\
+> ॐ शिव को नमस्ते। ॥

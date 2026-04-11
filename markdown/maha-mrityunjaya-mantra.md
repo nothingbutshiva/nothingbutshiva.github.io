@@ -1,129 +1,132 @@
 ---
-title: "Maha Mrityunjaya Mantra (महा मृत्युंजय मंत्र)"
-description: "The great death-conquering mantra of Lord Shiva from the Rig Veda, with Sanskrit text, Hindi meaning, English translation, and detailed explanation."
+title: "महा मृत्युंजय मंत्र"
+description: "भगवान शिव का महान मृत्युंजय मंत्र, जो ऋग्वेद से संकलित है, इसमें संस्कृत पाठ, हिंदी अर्थ, विस्तृत व्याख्या और अद्वैत वेदांत के आधार पर आध्यात्मिक विवेचन समाविष्ट है।"
 date: "2026-04-09"
 ---
 
-# महा मृत्युंजय मंत्र — Maha Mrityunjaya Mantra
+# महा मृत्युंजय मंत्र
 
-The **Maha Mrityunjaya Mantra** is one of the oldest and most sacred mantras in the Hindu tradition. It appears in the **Rig Veda (7.59.12)**, the most ancient of the Vedic scriptures, and is also found in the **Yajur Veda (3.60)**. Attributed to the great sage **Maharishi Vashistha**, it is addressed to **Lord Shiva** in His form as **Tryambaka** — the three-eyed one.
+महा मृत्युंजय मंत्र हिंदू परंपरा के सर्वाधिक प्राचीन और पवित्रतम मंत्रों में से एक है। यह मंत्र ऋग्वेद (७.५९.१२) में उल्लेखित है, जो वेद साहित्य का सबसे प्राचीन ग्रंथ माना जाता है, तथा यजुर्वेद (३.६०) में भी इसका उल्लेख पाया जाता है। महर्षि वशिष्ठ द्वारा प्रदत्त यह मंत्र त्रिनेत्रधारी भगवान शिव को समर्पित है।
 
-Often called the **"Great Death-Conquering Mantra"** (*Maha* = great, *Mrityu* = death, *Jaya* = victory), it is considered one of the most powerful mantras in all of Vedic literature, equal in stature to the Gayatri Mantra. It is not merely a prayer for physical longevity — it is a profound invocation for spiritual liberation, freedom from the cycle of birth and death, and the inner awakening that transcends all mortal fear.
+यह मंत्र "मृत्युंजय मंत्र" के नाम से विख्यात है — महा का अर्थ महान है, मृत्यु का अर्थ मरण है, और जय का अर्थ विजय है। यह संपूर्ण वैदिक साहित्य में सर्वाधिक शक्तिशाली माना जाता है और गायत्री मंत्र के समान ही महत्वपूर्ण है। यह मंत्र केवल शारीरिक दीर्घायु का प्रार्थना नहीं है — यह आध्यात्मिक मुक्ति, जन्म-मृत्यु के चक्र से किसी को मुक्त करने, और उस अंतर्दृष्टि को जागृत करने की गहन प्रार्थना है जो मृत्यु भय से परे ले जाती है।
 
-The mantra is also known as the **Tryambakam Mantra** (after its opening word) and the **Moksha Mantra** (the mantra of liberation). Devotees across the world chant it for healing, protection, courage in the face of adversity, and ultimate union with the Divine.
-
----
-
-## The Complete Mantra
-
-<div align="center">
-
-### ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्।  
-### उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात्॥
-
-</div>
+इस मंत्र को त्र्यम्बकम मंत्र (इसके प्रथम शब्द के अनुसार) और मोक्ष मंत्र (मुक्ति का मंत्र) के रूप में भी जाना जाता है। संसार भर के साधक इसे रोग-निवारण, सुरक्षा, विपत्ति के समय साहस, और ब्रह्मचेतना के साथ अभिन्नता के लिए जपते हैं।
 
 ---
 
-## Word-by-Word Breakdown (शब्दार्थ)
+## संपूर्ण मंत्र
 
-| Sanskrit Word | Transliteration | Meaning |
-|---|---|---|
-| **ॐ** | Om | The primordial sacred syllable; the sound of universal consciousness |
-| **त्र्यम्बकम्** | Tryambakam | The three-eyed one (Lord Shiva) — *tri* (three) + *ambaka* (eye) |
-| **यजामहे** | Yajāmahe | We worship, we honour, we meditate upon |
-| **सुगन्धिम्** | Sugandhim | The fragrant one; He whose divine presence pervades all, like a sweet fragrance |
-| **पुष्टिवर्धनम्** | Puṣṭi-vardhanam | The nourisher and sustainer of all life — *puṣṭi* (nourishment, fullness) + *vardhanam* (one who increases, strengthens) |
-| **उर्वारुकम्** | Urvārukam | A ripe cucumber (or melon); symbolizing the soul ready for liberation |
-| **इव** | Iva | Like, just as |
-| **बन्धनात्** | Bandhanāt | From bondage, from the stem (that binds the fruit to the vine) |
-| **मृत्योः** | Mṛtyoḥ | From death, from the cycle of mortality |
-| **मुक्षीय** | Mukṣīya | May I be liberated, may I be set free |
-| **मा** | Mā | Not |
-| **अमृतात्** | Amṛtāt | From immortality, from the nectar of eternal life — meaning: may I never be separated from the state of deathlessness |
+> **ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्।**\
+> **उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात्॥**
 
 ---
 
-## Hindi Translation (हिन्दी अर्थ)
+## पद-विवरण
 
-हम त्रिनेत्रधारी भगवान शिव की पूजा करते हैं, जो सुगंध के समान सर्वव्यापी हैं और समस्त प्राणियों का पोषण एवं कल्याण करने वाले हैं। जिस प्रकार एक पका हुआ फल अपनी बेल के बंधन से सहज ही अलग हो जाता है, उसी प्रकार हमें मृत्यु के बंधन से मुक्त करें, परंतु अमरत्व (मोक्ष) से कभी वंचित न करें।  
-
----
-
-## English Translation
-
-We worship the three-eyed Lord Shiva, who pervades all existence like a sweet fragrance and who nourishes and sustains all living beings. Just as a ripe fruit effortlessly separates from its vine, may He release us from the bondage of death and mortality — but may we never be cut off from the state of immortality and divine grace.
-
----
-
-## Significance & Benefits (महत्त्व और लाभ)
-
-The Maha Mrityunjaya Mantra holds a uniquely exalted place among all Vedic hymns. Its significance spans the physical, psychological, and spiritual dimensions of human life.
-
-### Spiritual Significance
-
-- **Victory over death:** The mantra is not simply a plea for long life. At its deepest level, *mrityu* (death) represents ignorance — the forgetting of our true, immortal nature. The mantra is an invocation to awaken from this spiritual sleep.
-- **The ripe fruit metaphor:** The image of the cucumber (उर्वारुक) separating from its vine is profoundly meaningful. Liberation is not a violent or forced act — it is a natural, graceful release that happens when the soul is ripe with wisdom and devotion.
-- **Union with Amrita:** The final phrase (*mā amṛtāt*) is a prayer that even as we are freed from death, we remain established in the deathless reality — the eternal consciousness that is Shiva Himself.
-
-### When to Chant
-
-- **During illness or suffering:** The mantra is widely chanted for healing of body and mind. It is traditionally recited at the bedside of the seriously ill.
-- **On Maha Shivaratri:** The great night of Shiva is considered the most auspicious time to chant this mantra.
-- **During eclipses:** Vedic tradition regards eclipses as powerful times for mantra recitation.
-- **At times of fear or danger:** The mantra bestows courage and inner strength when facing adversity, accidents, or calamities.
-- **On birthdays:** In many traditions, the mantra is chanted 108 times on one's birthday as a prayer for longevity and spiritual growth.
-- **During meditation:** Regular practice deepens self-awareness and dissolves the fear of mortality.
-- **For the departed:** The mantra is chanted for those who have passed on, as a prayer for the peaceful journey of their soul.
-
-### Benefits of Regular Practice
-
-- **Physical:** Promotes healing energy, strengthens vitality, and is believed to aid recovery from illness.
-- **Mental:** Calms anxiety, dispels fear (especially the fear of death), and brings clarity of mind.
-- **Emotional:** Cultivates inner peace, resilience, and surrender to the divine will.
-- **Spiritual:** Gradually dissolves attachment to the transient and awakens awareness of the eternal Self. Ultimately leads toward moksha — liberation from the cycle of birth and death.
+| संस्कृत पद | अर्थ |
+|---|---|
+| **ॐ** | ब्रह्मनाद—सार्वभौमिक चेतना का आदि ध्वनि, समस्त भौतिक और अभौतिक सत्ता का मूल |
+| **त्र्यम्बकम्** | त्रिनेत्रधारी (भगवान शिव)—त्रि का अर्थ है तीन और अम्बक का अर्थ नेत्र (आँख) |
+| **यजामहे** | हम अर्चना करते हैं, हम सम्मान करते हैं, हम ध्यान करते हैं |
+| **सुगन्धिम्** | सुगंध के समान सर्वव्यापी—वह जिसकी दिव्य उपस्थिति सुगंध की भाँति सर्वत्र व्याप्त है |
+| **पुष्टिवर्धनम्** | समस्त जीवन का पोषन और संवर्द्धन करने वाला—पुष्टि का अर्थ पूर्णता है और वर्धनम् का अर्थ है जो बढ़ाता है |
+| **उर्वारुकम्** | पका हुआ ककड़ी (या तरबूज़)—आत्मा की उस परिपक्वता का प्रतीक जो मुक्ति के लिए तत्पर है |
+| **इव** | जैसे, समान |
+| **बन्धनात्** | बंधन से, उस डंठल से जो फल को लता से जोड़े रखता है |
+| **मृत्योः** | मृत्यु से, मरणता के चक्र से |
+| **मुक्षीय** | मुझे मुक्त किया जाए, मुझे स्वतंत्र किया जाए |
+| **मा** | न (निषेध) |
+| **अमृतात्** | अमरता से, अनंत जीवन के अमृत से—अर्थात्, मुझे कभी उस अमरता अवस्था से वंचित न करें |
 
 ---
 
-## How to Chant (जप विधि)
+## हिंदी अनुवाद
 
-### Preparation
-
-1. **Choose a clean, quiet place** for your practice. Sit facing east or north if possible.
-2. **Bathe or wash your hands and face** before beginning, as a mark of physical and mental purity.
-3. **Sit in a comfortable posture** — Sukhasana (cross-legged), Padmasana (lotus pose), or simply on a chair with spine straight.
-4. **Light a diya (lamp) or incense** if available, to create a sacred atmosphere.
-
-### The Practice
-
-1. **Begin with three deep breaths** to calm the mind and centre your awareness.
-2. **Chant "Om" three times** slowly to attune yourself to the mantra's vibration.
-3. **Recite the mantra 108 times** using a Rudraksha mala (rosary of 108 beads). One full cycle of the mala constitutes one round.
-   - If 108 repetitions are not possible, chant in multiples of **9** — such as 9, 27, or 54 times.
-4. **Chant at a steady, unhurried pace.** Let each word resonate fully before moving to the next. Pronunciation need not be perfect — sincerity of devotion matters most.
-5. **Maintain awareness of the meaning** as you chant. Visualize Lord Shiva's compassionate presence or focus on the area between the eyebrows (the third eye centre).
-
-### Recommended Routine
-
-- **Best times:** Brahma Muhurta (approximately 4:00–5:30 AM), sunrise, sunset, or before sleep.
-- **Minimum daily practice:** One mala (108 repetitions) is ideal. Even 9 or 27 repetitions with full devotion are deeply beneficial.
-- **Special observances:** On Mondays (Shiva's day), Pradosh Vrat, and Maha Shivaratri, increase your count to 3, 5, or 11 malas for intensified practice.
-- **Duration of a vow (Anushthana):** A disciplined practice of 1.25 lakh (125,000) repetitions over 40 days is a traditional anushthana for this mantra, undertaken for specific spiritual or healing intentions.
-
-### Guidelines
-
-- Chant with a calm mind and an open heart. The mantra's power is magnified by devotion (bhakti), not mere mechanical repetition.
-- There are no rigid restrictions on who can chant — the Maha Mrityunjaya Mantra is universal. People of any age, gender, or background may recite it.
-- If chanting aloud is not possible, silent mental repetition (manasik japa) is equally powerful.
-- Consistency is more important than quantity. A few minutes of sincere daily practice will, over time, transform your inner landscape.
+हम त्रिनेत्रधारी भगवान शिव की वंदना करते हैं, जो सुगंध के समान सर्वत्र व्याप्त हैं और समस्त प्राणियों का पोषण तथा कल्याण करने वाले हैं। जिस प्रकार एक पका हुआ फल अपनी लता के बंधन से स्वाभाविक रूप से अलग हो जाता है, उसी प्रकार हमें मृत्यु के बंधन से मुक्त करें, परंतु अमरत्व (ब्रह्मचेतना) से कभी विछुद्र न करें।
 
 ---
 
-> **ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्।**
+## महत्व और आध्यात्मिक व्याख्या
+
+महा मृत्युंजय मंत्र समस्त वैदिक मंत्रों में सर्वोच्च स्थान रखता है। इसका महत्व मानव-जीवन के भौतिक, मनोवैज्ञानिक और आध्यात्मिक सभी आयामों में विस्तृत है।
+
+### आध्यात्मिक विवेचन
+
+यह मंत्र केवल दीर्घायु की प्रार्थना नहीं है। गहन स्तर पर, मृत्यु का अर्थ है अज्ञान—अपने सत्य, अमर स्वरूप को भूलना। यह मंत्र इस आध्यात्मिक निद्रा से जागृति की प्रार्थना है।
+
+ककड़ी की लता से अलग होने का प्रतीक अत्यंत गहन है। मोक्ष कोई हिंसक या बलपूर्वक कार्य नहीं है—यह वह स्वाभाविक, सुंदर विमोचन है जो तब घटित होता है जब आत्मा ज्ञान और भक्ति से परिपक्व हो जाती है।
+
+अंतिम वाक्य—"मा अमृतात्"—यह प्रार्थना है कि जब हम मृत्यु से मुक्त हों, तब भी हम उस अमर चेतना में स्थापित रहें, जो शिव स्वयं हैं। यह अद्वैत वेदांत का सार है—ब्रह्म और आत्मन की अभिन्नता का बोध।
+
+### जप का उचित समय
+
+मंत्र को महाशिवरात्रि के पवित्र रात्रि में जपना सर्वाधिक फलप्रद माना जाता है। ग्रहण के समय वेद मंत्र चिंतन विशेष शक्तिशाली होता है। संकट, भय या रोग की परिस्थितियों में इस मंत्र का जप साहस और आंतरिक शक्ति प्रदान करता है। पूर्वजों की शांति के लिए भी इसका जप किया जाता है।
+
+### नियमित साधना के लाभ
+
+**भौतिक स्तर पर:** यह मंत्र रोग-निवारण शक्ति को सक्रिय करता है, शारीरिक सामर्थ्य को बढ़ाता है और रोग-मुक्ति में सहायता प्रदान करता है।
+
+**मानसिक स्तर पर:** यह चिंता को शांत करता है, विशेषकर मृत्यु का भय दूर करता है, और मन में स्पष्टता लाता है।
+
+**भावनात्मक स्तर पर:** यह आंतरिक शांति, दृढ़ता और दिव्य इच्छा के प्रति समर्पण को जागृत करता है।
+
+**आध्यात्मिक स्तर पर:** नियमित साधना क्रमशः क्षणभंगुर से शाश्वत की ओर चेतना को मोड़ देती है। परमात्मा-स्वरूप आत्मन का साक्षात्कार हो जाता है, और जन्म-मृत्यु के चक्र से सदा के लिए मुक्ति (मोक्ष) प्राप्त होती है।
+
+---
+
+## जप की विधि
+
+### पूर्व-तैयारी
+
+१. शुद्ध, शांत स्थान का चयन करें। यदि संभव हो तो पूर्व या उत्तर की ओर मुख करके स्थान निर्धारित करें।
+
+२. जप से पहले हाथ-पैर और मुख को शुद्ध जल से धोएं, इस प्रकार शारीरिक और मानसिक शुद्धता का संकेत दें।
+
+३. सुखासन (पालथी), पद्मासन (कमलासन) या किसी कुर्सी पर रीढ़ को सीधा रखकर बैठें।
+
+४. यदि संभव हो तो दीपक प्रज्ज्वलित करें या गंधबत्ती प्रज्ज्वलित करके पवित्र वातावरण निर्मित करें।
+
+### साधना-विधि
+
+१. तीन गहरी श्वासें लें, मन को शांत और केंद्रित करें।
+
+२. ॐ को तीन बार धीरे-धीरे उच्चारित करें, मंत्र की कंपन-ऊर्जा से अपने को जोड़ें।
+
+३. रुद्राक्ष माला (१०८ मणियों की माला) का उपयोग करते हुए मंत्र को १०८ बार जपें। माला का एक पूर्ण चक्र एक पूर्ण माला (जप-चक्र) माना जाता है।
+
+— यदि १०८ जप संभव न हों, तो ९, २७ या ५४ के गुणजों में जप करें।
+
+४. प्रत्येक शब्द को पूर्ण रूप से गूंजने दें, फिर अगले शब्द की ओर बढ़ें। उच्चारण की पूर्णता से अधिक भक्ति की तीव्रता महत्वपूर्ण है।
+
+५. जप करते समय अर्थ पर ध्यान केंद्रित करें। भगवान शिव की करुणामय उपस्थिति का ध्यान करें या भ्रूमध्य (तीसरी आँख के केंद्र) पर मन को स्थिर करें।
+
+### अनुशंसित क्रम
+
+सर्वश्रेष्ठ समय: ब्रह्म-मुहूर्त (लगभग ४:०० से ५:३० तक), सूर्योदय, सूर्यास्त, या निद्रा से पहले।
+
+न्यूनतम दैनिक साधना: एक माला (१०८ जप) आदर्श है। यहाँ तक कि संपूर्ण भक्ति के साथ ९ या २७ जप भी गहन फलप्रद हैं।
+
+विशेष अवसरों पर: सोमवार (शिव का दिन), प्रदोष व्रत, और महाशिवरात्रि पर ३, ५ या ११ माला का जप करें।
+
+अनुष्ठान-काल: ४० दिनों में १,२५,००० जप का पूर्ण अनुष्ठान परंपरागत रूप से किसी विशेष आध्यात्मिक या रोग-निवारण की कामना के साथ किया जाता है।
+
+### मार्गदर्शन
+
+जप को शांत मन और खुले हृदय से करें। मंत्र की शक्ति भक्ति (श्रद्धा) से बढ़ती है, न कि यांत्रिक पुनरावृत्ति से।
+
+कोई कठोर अनिवार्यता नहीं है—महा मृत्युंजय मंत्र सार्वभौमिक है। किसी भी आयु, लिंग या पृष्ठभूमि का व्यक्ति इसे जप सकता है।
+
+यदि ऊँचे स्वर में जप संभव न हो, तो मानसिक जप (आंतरिक निरंतर ध्यान) भी समान रूप से शक्तिशाली है।
+
+संख्या अपेक्षा सातत्य अधिक महत्वपूर्ण है। कुछ मिनटों का निष्ठावान दैनिक साधना, समय के साथ, आपके आंतरिक जगत को रूपांतरित कर देगा।
+
+---
+
+> **ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्।**\
 > **उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात्॥**
 >
-> *— Rig Veda 7.59.12*
+> — ऋग्वेद ७.५९.१२
 
 ---
 
-*🙏 ॐ नमः शिवाय 🙏*
+**ॐ नमः शिवाय**
